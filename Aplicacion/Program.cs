@@ -5,77 +5,78 @@ namespace Aplicacion
 {
     class Program
     {
-        private static IRepositorioPersona _RepoPersona=
-        new RepositorioPersona(
+        private static IRepositorioCliente _RepoCliente = new RepositorioCliente(
             new Persistencia.ApplicationDbContext()
         );
 
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            // addPersona();
-            // updatePersona();
+            Console.WriteLine("----------------- Bienvenido --------------------");
+            //  addCliente();
+            updateCliente();
             // deletePersona(2);
             // getAllPersona();
-            getPersona(3);
+            // getPersona(3);
 
         }
 
-        public static void addPersona(){
-            var persona = new Persona{
+        public static void addCliente(){
+            var cliente = new Cliente{
 
-                Nombre= "Julian Amado",
-                Edad= "17",
-                Documento= "1099708101",
-                Telefono = "3197283549",
-                CorreoElectronico= "j.amado1002@gmail.com"
+                Nombre= "Martha Quiñonez",
+                Edad= "20",
+                Documento= "24990050",
+                Telefono = "3148952036",
+                CorreoElectronico= "marthaq@unicauca.edu.co",
+                Direccion= "cra 12F #32 A ",
+                Forma_pago = "efectivo"
 
             };
 
-            _RepoPersona.addPersona(persona);
+            _RepoCliente.addCliente(cliente);
         }
 
 
-        public static void updatePersona(){
-            var persona = new Persona{
-                Id= 1,
-                Nombre= "Andres Argoti",
-                Edad= "17",
-                Documento= "1099708100",
-                Telefono = "3028318363",
-                CorreoElectronico= "andresmauricioarg@hotmail.com",
-
-                
+        public static void updateCliente(){
+            var cliente = new Cliente{
+                Id= 4,
+                Nombre= "Martha Quiñonez",
+                Edad= "22",
+                Documento= "190084154",
+                Telefono = "3148952036",
+                CorreoElectronico= "marthaq@unicauca.edu.co",
+                Direccion= "cra 12F #32 A 71 B ",
+                Forma_pago = "Debito/Credito"
 
             };
 
-            _RepoPersona.updatePersona( persona);
+            _RepoCliente.updateCliente(cliente);
         }
 
-        public static void deletePersona(int idPersona){
-            _RepoPersona.deletePersona(idPersona);
-        }
+        // public static void deletePersona(int idPersona){
+        //     _RepoPersona.deletePersona(idPersona);
+        // }
 
 
-        public static void getPersona (int idPersona){
-            var Persona= _RepoPersona.GetPersona(idPersona);
+        // public static void getPersona (int idPersona){
+        //     var Persona= _RepoPersona.GetPersona(idPersona);
 
-            if (Persona == null)
-            {
-                return ;
-            }
+        //     if (Persona == null)
+        //     {
+        //         return ;
+        //     }
 
-            Console.WriteLine(Persona.Nombre);
-        }
+        //     Console.WriteLine(Persona.Nombre);
+        // }
 
-        public static void getAllPersona(){
-            var Persona = _RepoPersona.getAllPersona();
-            foreach (var persona in Persona)
-            {
-                Console.WriteLine(persona.Nombre);
-            }
-        }
+        // public static void getAllPersona(){
+        //     var Persona = _RepoPersona.getAllPersona();
+        //     foreach (var persona in Persona)
+        //     {
+        //         Console.WriteLine(persona.Nombre);
+        //     }
+        // }
 
 
 
@@ -83,3 +84,20 @@ namespace Aplicacion
         
     }
 }
+
+
+        // ATRIBUTOS PERSONA
+
+//  public String Nombre {get;set;}
+//         public String Edad {get;set;}
+//         public String Documento {get;set;}
+//         public String Telefono {get;set;}
+//         public String CorreoElectronico {get;set;}
+
+
+
+            // ATRIBUTOS CLIENTE
+        
+        // public String Direccion {get;set;}
+
+        // public String Forma_pago {get;set;}
