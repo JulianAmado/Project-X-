@@ -5,11 +5,10 @@ namespace Persistencia
 {
     public interface IRepositorioCliente
     {
-       Cliente addCliente (Cliente cliente);
-         Cliente updateCliente (Cliente cliente);
-         
-         IEnumerable <Cliente> getAllCliente();
-         void deleteCliente (int idCliente);
-         Cliente GetCliente (int idCliente);  
+        Cliente addCliente(Cliente cliente);
+        Cliente updateCliente(Cliente cliente);
+        IEnumerable<Cliente> getAllCliente();
+        void deleteCliente(int idCliente);
+        Cliente GetCliente(int idCliente);
     }
 }

@@ -9,29 +9,30 @@ namespace Persistencia
 
         private readonly ApplicationDbContext _appContext;
 
-        public RepositorioCliente ( ApplicationDbContext appContext){
-            _appContext= appContext;
+        public RepositorioCliente(ApplicationDbContext appContext)
+        {
+            _appContext = appContext;
         }
 
         Cliente IRepositorioCliente.addCliente(Cliente cliente)
         {
-            var new_cliente= _appContext.Add(cliente);
+            var new_cliente = _appContext.Add(cliente);
             _appContext.SaveChanges();
             return new_cliente.Entity;
         }
 
         void IRepositorioCliente.deleteCliente(int idCliente)
         {
-             var ClienteEncontrado= _appContext.Clientes.First(
-                c => c.Id == idCliente);
+            var ClienteEncontrado = _appContext.Clientes.First(
+               c => c.Id == idCliente);
 
-                if (ClienteEncontrado== null)
-                {
-                    return;
-                }
+            if (ClienteEncontrado == null)
+            {
+                return;
+            }
 
-                _appContext.Remove(ClienteEncontrado);
-                _appContext.SaveChanges();
+            _appContext.Remove(ClienteEncontrado);
+            _appContext.SaveChanges();
         }
 
         IEnumerable<Cliente> IRepositorioCliente.getAllCliente()
@@ -44,23 +45,23 @@ namespace Persistencia
             return _appContext.Clientes.FirstOrDefault(
                 c => c.Id == idCliente
             );
-            
+
         }
 
         Cliente IRepositorioCliente.updateCliente(Cliente cliente)
         {
-            var ClienteEncontrado= _appContext.Clientes.FirstOrDefault(
+            var ClienteEncontrado = _appContext.Clientes.FirstOrDefault(
                 c => c.Id == cliente.Id
             );
             if (ClienteEncontrado != null)
             {
                 ClienteEncontrado.Nombre = cliente.Nombre;
                 ClienteEncontrado.Edad = cliente.Edad;
-                ClienteEncontrado.Documento= cliente.Documento;
-                ClienteEncontrado.Telefono= cliente.Telefono;
-                ClienteEncontrado.CorreoElectronico= cliente.CorreoElectronico;
+                ClienteEncontrado.Documento = cliente.Documento;
+                ClienteEncontrado.Telefono = cliente.Telefono;
+                ClienteEncontrado.CorreoElectronico = cliente.CorreoElectronico;
                 ClienteEncontrado.Direccion = cliente.Direccion;
-                ClienteEncontrado.Forma_pago= cliente.Forma_pago;
+                ClienteEncontrado.Forma_pago = cliente.Forma_pago;
 
                 _appContext.SaveChanges();
             }
@@ -73,7 +74,7 @@ namespace Persistencia
 
 
 
-        // ATRIBUTOS PERSONA
+// ATRIBUTOS PERSONA
 
 //  public String Nombre {get;set;}
 //         public String Edad {get;set;}
@@ -83,8 +84,8 @@ namespace Persistencia
 
 
 
-            // ATRIBUTOS CLIENTE
-        //      public int Id {get;set;}
-        // public String Direccion {get;set;}
+// ATRIBUTOS CLIENTE
+//      public int Id {get;set;}
+// public String Direccion {get;set;}
 
-        // public String Forma_pago {get;set;}
+// public String Forma_pago {get;set;}
