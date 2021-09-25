@@ -15,6 +15,9 @@ namespace Aplicacion
         private static IRepositorioDomiciliario _RepoDomiciliario= new RepositorioDomiciliario(
             new Persistencia.ApplicationDbContext()
         );
+        private static IRepositorioEmpleado _RepoEmpleado= new RepositorioEmpleado(
+            new Persistencia.ApplicationDbContext()
+        );
 
 
         static void Main(string[] args)
@@ -35,6 +38,12 @@ namespace Aplicacion
             //getAllDomiciliario();
             //updateDomiciliario();
             //deleteDomiciliario(1);
+            //addEmpleado();
+            //GetEmpleado(1);
+            //getAllEmpleado();
+            //updateEmpleado();
+            deleteEmpleado(1);
+            deleteEmpleado(2);
 
         }
 
@@ -231,7 +240,71 @@ namespace Aplicacion
         public static void deleteDomiciliario(int idDomiciliario){
             _RepoDomiciliario.deleteDomiciliario(idDomiciliario);
         }
-    }
+    
+
+    public static void addEmpleado()
+        {
+            var empleado = new Empleado
+            {
+
+                Nombre = "Martha Quiñonez",
+                Edad = "22",
+                Documento = "190084154",
+                Telefono = "3148952036",
+                CorreoElectronico = "marthaq@unicauca.edu.co",
+                Cargo = "Domiciliario",
+                Horario = "Diurno",
+                Sueldo = 2000000
+
+            };
+
+            _RepoEmpleado.addEmpleado(empleado);
+        }
+
+
+        public static void updateEmpleado()
+        {
+            var empleado = new Empleado
+            {
+                Id=2,
+                Nombre = "Eduardo Gutierrez",
+                Edad = "22",
+                Documento = "190084154",
+                Telefono = "3148952036",
+                CorreoElectronico = "marthaq@unicauca.edu.co",
+                Cargo = "Domiciliario",
+                Horario = "Nocturno",
+                Sueldo = 2000000
+
+            };
+
+            _RepoEmpleado.updateEmpleado(empleado);
+        }
+
+        public static void GetEmpleado(int idEmpleado)
+        {
+            var Empleado = _RepoEmpleado.GetEmpleado(idEmpleado);
+
+            if (Empleado == null)
+            {
+                return;
+            }
+
+            Console.WriteLine(Empleado.Nombre);
+        }
+
+        public static void getAllEmpleado()
+        {
+            var Empleado = _RepoEmpleado.getAllEmpleado();
+            foreach (var empleado in Empleado)
+            {
+                Console.WriteLine(empleado.Nombre);
+            }
+        }
+        public static void deleteEmpleado(int idEmpleado){
+            _RepoEmpleado.deleteEmpleado(idEmpleado);
+        }
+    }    
 }
 
 

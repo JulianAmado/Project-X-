@@ -38,7 +38,7 @@ namespace Persistencia
             return _appContext.Empleados;
         }
 
-        Empleado IRepositorioEmpleado.GetPersona(int idEmpleado)
+        Empleado IRepositorioEmpleado.GetEmpleado(int idEmpleado)
         {
             return _appContext.Empleados.FirstOrDefault(
                 e => e.Id == idEmpleado

@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {}
+    "C:\\Users\\paola\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\paola\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\paola\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

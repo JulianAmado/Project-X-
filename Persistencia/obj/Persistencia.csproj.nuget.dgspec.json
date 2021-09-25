@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Persistencia\\Persistencia.csproj": {}
+    "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
-    "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\paola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\paola\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -56,17 +56,17 @@
         }
       }
     },
-    "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-        "outputPath": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\paola\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\paola\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Dominio\\Dominio.csproj": {
-                "projectPath": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Dominio\\Dominio.csproj"
+              "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj"
               }
             }
           }
