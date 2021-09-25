@@ -30,6 +30,11 @@ namespace Aplicacion
             //getAllRestaurante();
             //updateRestaurante();
             //deleteRestaurante(1);
+            //addDomiciliario();
+            //GetDomiciliario(1);
+            //getAllDomiciliario();
+            //updateDomiciliario();
+            //deleteDomiciliario(1);
 
         }
 
@@ -164,7 +169,7 @@ namespace Aplicacion
         //   DomiciliarioEncontrado.Transporte = domiciliario.Transporte;
 
 
-           public static void addCDomiciliario()
+           public static void addDomiciliario()
         {
             var domiciliario = new Domiciliario
             {
@@ -209,7 +214,8 @@ namespace Aplicacion
         {
             var domiciliario = new Domiciliario
             {
-                  Nombre = "Andrés Quiñonez",
+                Id=1,
+                Nombre = "Andrés Quiñonez",
                 Edad = "22",
                 Documento = "190084154",
                 Telefono = "3148952036",
