@@ -22,3 +22,15 @@ C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCo
 C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\Dominio.pdb
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\bin\Debug\net5.0\Dominio.deps.json
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\bin\Debug\net5.0\Dominio.dll
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\bin\Debug\net5.0\Dominio.pdb
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\obj\Debug\net5.0\Dominio.dll
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Dominio\obj\Debug\net5.0\Dominio.pdb

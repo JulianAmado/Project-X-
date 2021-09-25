@@ -8,7 +8,7 @@ namespace Persistencia
         Domiciliario addDomiciliario(Domiciliario domiciliario);
         Domiciliario updateDomiciliario(Domiciliario domiciliario);
         IEnumerable<Domiciliario> getAllDomiciliario();
-        void deleteCDomiciliario(int idDomiciliario);
+        void deleteDomiciliario(int idDomiciliario);
         Domiciliario GetDomiciliario(int idDomiciliario);
     }
 }

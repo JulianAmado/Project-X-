@@ -136,3 +136,11 @@ C:\Users\anosc\Desktop\Project-X-\Aplicacion\obj\Debug\net5.0\Aplicacion.dll
 C:\Users\anosc\Desktop\Project-X-\Aplicacion\obj\Debug\net5.0\ref\Aplicacion.dll
 C:\Users\anosc\Desktop\Project-X-\Aplicacion\obj\Debug\net5.0\Aplicacion.pdb
 C:\Users\anosc\Desktop\Project-X-\Aplicacion\obj\Debug\net5.0\Aplicacion.genruntimeconfig.cache
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Aplicacion\obj\Debug\net5.0\Aplicacion.pdb
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.AssemblyReference.cache
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Aplicacion\obj\Debug\net5.0\Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Aplicacion\obj\Debug\net5.0\Aplicacion.AssemblyInfoInputs.cache
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Aplicacion\obj\Debug\net5.0\Aplicacion.AssemblyInfo.cs
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Aplicacion\obj\Debug\net5.0\Aplicacion.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Aplicacion\obj\Debug\net5.0\Aplicacion.dll
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Aplicacion\obj\Debug\net5.0\ref\Aplicacion.dll

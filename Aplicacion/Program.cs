@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Globalization;
+using System;
 using Dominio;
 using Persistencia;
 namespace Aplicacion
@@ -11,6 +12,9 @@ namespace Aplicacion
         private static IRepositorioRestaurante _RepoRestaurante = new RepositorioRestaurante(
             new Persistencia.ApplicationDbContext()
         );
+        private static IRepositorioDomiciliario _RepoDomiciliario= new RepositorioDomiciliario(
+            new Persistencia.ApplicationDbContext()
+        );
 
 
         static void Main(string[] args)
@@ -21,7 +25,7 @@ namespace Aplicacion
             // deletePersona(2);
             // getAllPersona();
             // getPersona(3);
-            addRestaurante();
+            //addRestaurante();
             //GetRestaurante(1);
             //getAllRestaurante();
             //updateRestaurante();
@@ -97,7 +101,7 @@ namespace Aplicacion
                 Nombre = "Cualquier restaurante",
                 NIT = "2000 - 1565",
                 Razon_Social = "Comidas XAX",
-                Califiacion = 5,
+                Calificacion = 5,
                 UbicacionEmpresa = "Calle 410 # 39 -9",
                 TelefonoEmpresa = "312 784 9899 ",
                 CorreoEmpresa = "Cualquierestaurante@corre.com",
@@ -135,17 +139,91 @@ namespace Aplicacion
                 Nombre = "Comidax deliciosax",
                 NIT = "20015 - 15677",
                 Razon_Social = "Comidax XAX",
-                Califiacion = 10,
+                Calificacion = 10,
                 UbicacionEmpresa = "Calle 410 # 39 -9",
                 TelefonoEmpresa = "312 784 9899 ",
                 CorreoEmpresa = "comidaxdelixiosas@corre.com",
                 Menu = "Papas fritas, hamburguesas"
             };
-            _RepoCliente.updateRestaurante(restaurante);
+            _RepoRestaurante.updateRestaurante(restaurante);
         }
 
         public static void deleteRestaurante(int idRestaurante){
             _RepoRestaurante.deleteRestaurante(idRestaurante);
+        }
+
+        
+        //   DomiciliarioEncontrado.Nombre = domiciliario.Nombre;
+        //   DomiciliarioEncontrado.Edad = domiciliario.Edad;
+        //   DomiciliarioEncontrado.Documento = domiciliario.Documento;
+        //   DomiciliarioEncontrado.Telefono = domiciliario.Telefono;
+        //   DomiciliarioEncontrado.CorreoElectronico = domiciliario.CorreoElectronico;
+        //   DomiciliarioEncontrado.Cargo = domiciliario.Cargo;
+        //   DomiciliarioEncontrado.Horario = domiciliario.Horario;
+        //   DomiciliarioEncontrado.Sueldo= domiciliario.Sueldo;
+        //   DomiciliarioEncontrado.Transporte = domiciliario.Transporte;
+
+
+           public static void addCDomiciliario()
+        {
+            var domiciliario = new Domiciliario
+            {
+               
+                Nombre = "Martha Quiñonez",
+                Edad = "22",
+                Documento = "190084154",
+                Telefono = "3148952036",
+                CorreoElectronico = "marthaq@unicauca.edu.co",
+                Cargo = "Domiciliario",
+                Horario = "Diurno",
+                Sueldo = 2000000,
+                Transporte = "Carro"            
+               
+
+            };
+            _RepoDomiciliario.addDomiciliario(domiciliario);
+        }
+
+        public static void GetDomiciliario(int idDomiciliario)
+        {
+            var Domiciliario = _RepoDomiciliario.GetDomiciliario(idDomiciliario);
+
+            if (Domiciliario == null)
+            {
+                return;
+            }
+
+            Console.WriteLine(Domiciliario.Nombre);
+        }
+
+        public static void getAllDomiciliario()
+        {
+            var Domiciliario = _RepoDomiciliario.getAllDomiciliario();
+            foreach (var domiciliario in Domiciliario)
+            {
+                Console.WriteLine(domiciliario.Nombre);
+            }
+        }
+
+        public static void updateDomiciliario()
+        {
+            var domiciliario = new Domiciliario
+            {
+                  Nombre = "Andrés Quiñonez",
+                Edad = "22",
+                Documento = "190084154",
+                Telefono = "3148952036",
+                CorreoElectronico = "marthaq@unicauca.edu.co",
+                Cargo = "Domiciliario",
+                Horario = "Nocturno",
+                Sueldo = 2000000,
+                Transporte = "Moto"   
+            };
+            _RepoDomiciliario.updateDomiciliario(domiciliario);
+        }
+
+        public static void deleteDomiciliario(int idDomiciliario){
+            _RepoDomiciliario.deleteDomiciliario(idDomiciliario);
         }
     }
 }

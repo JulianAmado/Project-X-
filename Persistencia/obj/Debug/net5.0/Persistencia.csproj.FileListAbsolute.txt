@@ -34,3 +34,21 @@ C:\Users\anosc\Desktop\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.dll
 C:\Users\anosc\Desktop\Project-X-\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
 C:\Users\anosc\Desktop\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.pdb
 C:\Users\anosc\Desktop\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.dll
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.pdb
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.csproj.AssemblyReference.cache
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfoInputs.cache
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfo.cs
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CoreCompileInputs.cache
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\bin\Debug\net5.0\Persistencia.deps.json
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.json
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.dev.json
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\bin\Debug\net5.0\Persistencia.dll
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\bin\Debug\net5.0\ref\Persistencia.dll
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\bin\Debug\net5.0\Persistencia.pdb
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\bin\Debug\net5.0\Dominio.dll
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\bin\Debug\net5.0\Dominio.pdb
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CopyComplete
+D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache

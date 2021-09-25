@@ -14,7 +14,7 @@ namespace Persistencia
             _appContext = appContext;
         }
 
-        Cliente IRepositorioDomiciliario.addCDomiciliario(Domiciliario domiciliario)
+        Domiciliario IRepositorioDomiciliario.addDomiciliario(Domiciliario domiciliario)
         {
             var new_domiciliario = _appContext.Add(domiciliario);
             _appContext.SaveChanges();
@@ -23,7 +23,7 @@ namespace Persistencia
 
         void IRepositorioDomiciliario.deleteDomiciliario(int idDomiciliario)
         {
-            var DomiciliarioEncontrado = _appContext.Domiciliario.First(
+            var DomiciliarioEncontrado = _appContext.Domiciliarios.First(
                c => c.Id == idDomiciliario);
 
             if (DomiciliarioEncontrado == null)
@@ -37,20 +37,20 @@ namespace Persistencia
 
         IEnumerable<Domiciliario> IRepositorioDomiciliario.getAllDomiciliario()
         {
-            return _appContext.Domiciliario;
+            return _appContext.Domiciliarios;
         }
 
         Domiciliario IRepositorioDomiciliario.GetDomiciliario(int idDomiciliario)
         {
-            return _appContext.Domiciliario.FirstOrDefault(
+            return _appContext.Domiciliarios.FirstOrDefault(
                 c => c.Id == idDomiciliario
             );
 
         }
 
-        Domiciliario IRepositorioDomiciliario.updateDomiciliarioe(Domiciliario domiciliario)
+        Domiciliario IRepositorioDomiciliario.updateDomiciliario(Domiciliario domiciliario)
         {
-            var DomiciliarioEncontrado = _appContext.Domiciliario.FirstOrDefault(
+            var DomiciliarioEncontrado = _appContext.Domiciliarios.FirstOrDefault(
                 c => c.Id == domiciliario.Id
             );
             if (DomiciliarioEncontrado != null)
@@ -69,7 +69,7 @@ namespace Persistencia
                 _appContext.SaveChanges();
             }
 
-            return ClienteEncontrado;
+            return DomiciliarioEncontrado;
         }
     }
 }
