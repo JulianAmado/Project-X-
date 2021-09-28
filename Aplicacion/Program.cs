@@ -38,12 +38,12 @@ namespace Aplicacion
             //getAllDomiciliario();
             //updateDomiciliario();
             //deleteDomiciliario(1);
-            //addEmpleado();
+            addEmpleado();
             //GetEmpleado(1);
             //getAllEmpleado();
             //updateEmpleado();
-            deleteEmpleado(1);
-            deleteEmpleado(2);
+            //deleteEmpleado(1);
+            //deleteEmpleado(2);
 
         }
 
