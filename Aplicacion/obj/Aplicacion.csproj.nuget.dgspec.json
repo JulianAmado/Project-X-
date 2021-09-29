@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Aplicacion\\Aplicacion.csproj": {}
+    "C:\\Users\\anosc\\Desktop\\Project-X-\\Aplicacion\\Aplicacion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Aplicacion\\Aplicacion.csproj": {
+    "C:\\Users\\anosc\\Desktop\\Project-X-\\Aplicacion\\Aplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Aplicacion\\Aplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\anosc\\Desktop\\Project-X-\\Aplicacion\\Aplicacion.csproj",
         "projectName": "Aplicacion",
-        "projectPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Aplicacion\\Aplicacion.csproj",
-        "packagesPath": "C:\\Users\\paola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Aplicacion\\obj\\",
+        "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Aplicacion\\Aplicacion.csproj",
+        "packagesPath": "C:\\Users\\anosc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Aplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\paola\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\anosc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Persistencia\\Persistencia.csproj"
+              "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -62,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\paola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\obj\\",
+        "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\anosc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\paola\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\anosc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -114,21 +114,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Persistencia\\Persistencia.csproj": {
+    "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\paola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\anosc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\paola\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\anosc\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -140,8 +140,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\Project X\\Project-X-\\Dominio\\Dominio.csproj"
+              "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -188,7 +188,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

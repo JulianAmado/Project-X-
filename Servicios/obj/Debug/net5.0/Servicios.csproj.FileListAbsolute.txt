@@ -27,3 +27,32 @@ D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Servicios\obj\Debug\net5.0\Servicio
 D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Servicios\obj\Debug\net5.0\ref\Servicios.dll
 D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Servicios\obj\Debug\net5.0\Servicios.pdb
 D:\PROGRAMACION\CICLO 3\Project-X\Project-X-\Servicios\obj\Debug\net5.0\Servicios.genruntimeconfig.cache
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\appsettings.json
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\Servicios.exe
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\Servicios.deps.json
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\Servicios.runtimeconfig.json
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\Servicios.runtimeconfig.dev.json
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\Servicios.dll
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\ref\Servicios.dll
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\Servicios.pdb
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\anosc\Desktop\Project-X-\Servicios\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.csproj.AssemblyReference.cache
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.AssemblyInfoInputs.cache
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.AssemblyInfo.cs
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.csproj.CoreCompileInputs.cache
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\staticwebassets\Servicios.StaticWebAssets.Manifest.cache
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\staticwebassets\Servicios.StaticWebAssets.xml
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\scopedcss\bundle\Servicios.styles.css
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.RazorTargetAssemblyInfo.cache
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.csproj.CopyComplete
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.dll
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\ref\Servicios.dll
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.pdb
+C:\Users\anosc\Desktop\Project-X-\Servicios\obj\Debug\net5.0\Servicios.genruntimeconfig.cache

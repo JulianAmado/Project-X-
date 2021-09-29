@@ -193,19 +193,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ACER\\.nuget\\packages\\": {}
+    "C:\\Users\\anosc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Servicios\\Servicios.csproj",
+      "projectUniqueName": "C:\\Users\\anosc\\Desktop\\Project-X-\\Servicios\\Servicios.csproj",
       "projectName": "Servicios",
-      "projectPath": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Servicios\\Servicios.csproj",
-      "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
-      "outputPath": "D:\\PROGRAMACION\\CICLO 3\\Project-X\\Project-X-\\Servicios\\obj\\",
+      "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Servicios\\Servicios.csproj",
+      "packagesPath": "C:\\Users\\anosc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Servicios\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\anosc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -252,7 +252,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

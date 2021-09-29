@@ -23,11 +23,11 @@ namespace Aplicacion
         static void Main(string[] args)
         {
             Console.WriteLine("----------------- Bienvenido --------------------");
-            //  addCliente();
-            // updateCliente();
-            // deletePersona(2);
-            // getAllPersona();
-            // getPersona(3);
+            //addCliente();
+            //updateCliente();
+            //deletePersona(2);
+            //getAllPersona();
+            //getPersona(3);
             //addRestaurante();
             //GetRestaurante(1);
             //getAllRestaurante();
@@ -38,13 +38,12 @@ namespace Aplicacion
             //getAllDomiciliario();
             //updateDomiciliario();
             //deleteDomiciliario(1);
-            addEmpleado();
+            //addEmpleado();
             //GetEmpleado(1);
             //getAllEmpleado();
-            //updateEmpleado();
+            updateEmpleado();
             //deleteEmpleado(1);
             //deleteEmpleado(2);
-
         }
 
         public static void addCliente()
@@ -52,13 +51,13 @@ namespace Aplicacion
             var cliente = new Cliente
             {
 
-                Nombre = "Martha Quiñonez",
-                Edad = "20",
-                Documento = "24990050",
-                Telefono = "3148952036",
-                CorreoElectronico = "marthaq@unicauca.edu.co",
+                Nombre = "Andrés Argotti",
+                Edad = "16",
+                Documento = "251336",
+                Telefono = "3310 1543 1554",
+                CorreoElectronico = "AndresArgotti@bogota.edu.co",
                 Direccion = "cra 12F #32 A ",
-                Forma_pago = "efectivo"
+                Forma_pago = "Credito"
 
             };
 
@@ -70,14 +69,14 @@ namespace Aplicacion
         {
             var cliente = new Cliente
             {
-                Id = 4,
-                Nombre = "Martha Quiñonez",
-                Edad = "22",
-                Documento = "190084154",
-                Telefono = "3148952036",
-                CorreoElectronico = "marthaq@unicauca.edu.co",
-                Direccion = "cra 12F #32 A 71 B ",
-                Forma_pago = "Debito/Credito"
+                Id = 3,
+                Nombre = "Andrés Argoti",
+                Edad = "17",
+                Documento = "7449930132",
+                Telefono = "621453013",
+                CorreoElectronico = "andresmaurcioarg@gmail.com",
+                Direccion = "Avenida siempre Viva 742 ",
+                Forma_pago = "Crédito"
 
             };
 
@@ -266,15 +265,15 @@ namespace Aplicacion
         {
             var empleado = new Empleado
             {
-                Id=2,
-                Nombre = "Eduardo Gutierrez",
-                Edad = "22",
-                Documento = "190084154",
-                Telefono = "3148952036",
-                CorreoElectronico = "marthaq@unicauca.edu.co",
-                Cargo = "Domiciliario",
-                Horario = "Nocturno",
-                Sueldo = 2000000
+                Id = 4,
+                Nombre = "Julian Amado",
+                Edad = "16",
+                Documento = "997841365",
+                Telefono = "300015423",
+                CorreoElectronico = "j.amado1002@gmail.com",
+                Cargo = "Ayudante de Chef",
+                Horario = "Diurno",
+                Sueldo = 1500000
 
             };
 

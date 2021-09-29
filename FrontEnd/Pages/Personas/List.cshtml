@@ -3,3 +3,24 @@
 @{
 }
 <h1> Lista de Personas </h1>
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Id </th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Edad</th>
+            <th scope="col">Documento</th>
+            <th scope="col">Telefono</th>
+        </tr>
+    </thead>
+    @foreach (var persona in Model.Personas)
+    {
+        <tr>
+            <td>@persona.Id</td>
+            <td>@persona.Nombre</td>
+            <td>@persona.Edad</td>
+            <td>@persona.Documento</td>
+            <td>@persona.Telefono</td>
+        </tr>
+    }
+</table>
