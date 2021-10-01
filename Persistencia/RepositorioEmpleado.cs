@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Dominio;
@@ -8,7 +9,6 @@ namespace Persistencia
     {
 
         private readonly ApplicationDbContext _appContext;
-
         public RepositorioEmpleado(ApplicationDbContext appContext){
             _appContext = appContext;
         }

@@ -1,0 +1,68 @@
+﻿@page
+@model Frontend.Pages.DetailsModel
+@{
+    ViewData["Title"] = "Detalle del empleado";
+}
+<h2> Detalle del empleado </h2>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.empleado.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.empleado.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.empleado.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.empleado.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.empleado.Edad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.empleado.Edad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.empleado.Documento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.empleado.Documento)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.empleado.Telefono)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.empleado.Telefono)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.empleado.CorreoElectronico)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.empleado.CorreoElectronico)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.empleado.Cargo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.empleado.Cargo)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.empleado.Horario)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.empleado.Horario)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.empleado.Sueldo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.empleado.Sueldo)
+        </dd>
+    </dl>
+</div>
+
+<a href="/Empleados/List"> Regesar Lista de Empleados </a>
+

@@ -26,6 +26,7 @@ namespace FrontEnd
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioPersona>(new RepositorioPersona(new Persistencia.ApplicationDbContext()));
+            services.AddSingleton<IRepositorioEmpleado>(new RepositorioEmpleado(new Persistencia.ApplicationDbContext()));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,0 +1,37 @@
+﻿@page
+@model Frontend.Pages.ListModel
+@{
+}
+<h1> Lista de Empleados </h1>
+
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Edad</th>
+            <th scope="col">Cargo</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Detalles</th>
+            <th scope="col">Editar</th>
+        </tr>
+    </thead>
+    @foreach (var empleado in Model.Empleados)
+    {
+        <tr>
+            <td>@empleado.Nombre</td>
+            <td>@empleado.Edad</td>
+            <td>@empleado.Cargo</td>
+            <td>@empleado.Telefono</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Details" asp-route-empleadoId="@empleado.Id">
+                    <i class="fas fa-info-circle fa-lg"></i>
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-empleadoId="@empleado.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                </a>
+            </td>
+        </tr>
+    }
+</table>

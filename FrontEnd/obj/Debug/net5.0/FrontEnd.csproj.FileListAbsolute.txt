@@ -116,3 +116,5 @@ C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\FrontEnd.dll
 C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\ref\FrontEnd.dll
 C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\FrontEnd.pdb
 C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\FrontEnd.genruntimeconfig.cache
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\List.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\Details.cshtml.g.cs

@@ -15629,6 +15629,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\anosc\\Desktop\\Project-X-\\FrontEnd\\Pages\\Empleados\\List.cshtml",
+      "TargetPath": "Pages\\Empleados\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\anosc\\Desktop\\Project-X-\\FrontEnd\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
@@ -15641,6 +15646,11 @@
     {
       "FilePath": "c:\\Users\\anosc\\Desktop\\Project-X-\\FrontEnd\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\anosc\\Desktop\\Project-X-\\FrontEnd\\Pages\\Empleados\\Details.cshtml",
+      "TargetPath": "Pages\\Empleados\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
