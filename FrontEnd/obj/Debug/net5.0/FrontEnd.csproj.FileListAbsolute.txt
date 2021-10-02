@@ -118,3 +118,6 @@ C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\FrontEnd.pdb
 C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\FrontEnd.genruntimeconfig.cache
 C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\List.cshtml.g.cs
 C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\Details.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\AddEmpleado.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\EditEmpleado.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Empleados\DeleteEmpleado.cshtml.g.cs

@@ -6,7 +6,7 @@
 <form method="get">
     <div class="form-group">
         <p>
-            Saludo: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda"/>
+            Buscar: <input type="text" name="filtroBusqueda" asp-for="FiltroBusqueda"/>
             <input type="submit" value="Filtrar" />
         </p>
 </form>
@@ -20,6 +20,7 @@
             <th scope="col">Telefono</th>
             <th scope="col">Detalles</th>
             <th scope="col">Editar</th>
+            <th scope="col">Borrar</th>
         </tr>
     </thead>
     @foreach (var empleado in Model.Empleados)
@@ -35,10 +36,17 @@
                 </a>
             </td>
             <td>
-                <a class="btn btn-primary table-btn" asp-page="./Edit" asp-route-empleadoId="@empleado.Id">
-                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                <a class="btn btn-primary table-btn" asp-page="./EditEmpleado" asp-route-empleadoId="@empleado.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i> @*Icono de fontawesome*@
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DeleteEmpleado" asp-route-empleadoId="@empleado.Id">
+                    <i class="far fa-trash-alt"></i>
                 </a>
             </td>
         </tr>
     }
 </table>
+
+<a class = "btn btn-primary table-btn" asp-page="./AddEmpleado"> Crear Empleado </a>

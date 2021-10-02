@@ -23,7 +23,7 @@ namespace Frontend.Pages
         }
         public void OnGet(string filtroBusqueda) 
         {
-            //Empleados = repositorioEmpleado.getAllEmpleado();
+            //Empleados = repositorioEmpleado.getAllEmpleado(); // Para obetenr todos los medicos
             FiltroBusqueda = filtroBusqueda;
             Empleados = repositorioEmpleado.GetEmpleadosPorFiltro(filtroBusqueda);
         }

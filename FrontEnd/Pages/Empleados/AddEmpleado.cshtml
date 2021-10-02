@@ -1,0 +1,45 @@
+﻿@page
+@model Frontend.Pages.AddEmpleadoModel
+@using Dominio
+@{
+}
+<h1> Agregar Empleado Nuevo </h1>
+<form method="post" class="mt-3">
+    <input hidden asp-for="empleadoNuevo.Id" />
+    <div class="form-group row">
+        <label asp-for="empleadoNuevo.Nombre" class="col-sm-2"> Nombre Completo </label>
+        <input asp-for="empleadoNuevo.Nombre" class="form-control" value="" required>
+    </div>
+    <div class="form-group row">
+        <label asp-for="empleadoNuevo.Edad" class="col-sm-2"> Edad </label>
+        <input asp-for="empleadoNuevo.Edad" class="form-control" value="" required>
+    </div>
+    <div class="form-group row">
+        <label asp-for="empleadoNuevo.Documento" class="col-sm-2"> Documento Identidad </label>
+        <input asp-for="empleadoNuevo.Documento" class="form-control" value="" required>
+    </div>
+    <div class="form-group row">
+        <label asp-for="empleadoNuevo.Telefono" class="col-sm-2"> Telefono Contacto </label>
+        <input asp-for="empleadoNuevo.Telefono" class="form-control" value="" required>
+    </div>
+    <div class="form-group row">
+        <label asp-for="empleadoNuevo.CorreoElectronico" class="col-sm-2"> Correo Electrónico </label>
+        <input asp-for="empleadoNuevo.CorreoElectronico" class="form-control" value="" required>
+    </div>
+    <div class="form-group row">
+        <label asp-for="empleadoNuevo.Cargo" class="col-sm-2"> Cargo </label>
+        <input asp-for="empleadoNuevo.Cargo" class="form-control" value="" required>
+    </div>
+    <div class="form-group row">
+        <label asp-for="empleadoNuevo.Horario" class="col-sm-2"> Horario </label>
+        <input asp-for="empleadoNuevo.Horario" class="form-control" value="" required>
+    </div>
+    <div class="form-group row">
+        <label asp-for="empleadoNuevo.Sueldo" class="col-sm-2"> Sueldo </label>
+        <input asp-for="empleadoNuevo.Sueldo" class="form-control" value="" required>
+    </div>
+    <div class="form-group row">
+        <button type="submit" class="btn btn-primary"> Guardar </button>
+        <a asp-page="./List" class="btn btn-primary"> Cancelar </a>
+    </div>
+</form>
