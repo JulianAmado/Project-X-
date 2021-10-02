@@ -11,6 +11,7 @@ namespace Persistencia
          IEnumerable <Empleado> getAllEmpleado();
          void deleteEmpleado (int idEmpleado);
          Empleado GetEmpleado (int idEmpleado);
+         IEnumerable<Empleado> GetEmpleadosPorFiltro(string filtro);
 
     }
 }

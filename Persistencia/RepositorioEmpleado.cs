@@ -45,6 +45,19 @@ namespace Persistencia
             );
         }
 
+        IEnumerable<Empleado> IRepositorioEmpleado.GetEmpleadosPorFiltro(string filtro)
+        {
+            IEnumerable<Empleado> empleados = _appContext.Empleados;
+            if (empleados != null) 
+            {
+                if (!String.IsNullOrEmpty(filtro)) 
+                {
+                    empleados = empleados.Where(s => s.Nombre.Contains(filtro));
+                }
+            }
+            return empleados;
+        }
+
         Empleado IRepositorioEmpleado.updateEmpleado(Empleado empleado)
         {
             var EmpleadoEncontrada = _appContext.Empleados.FirstOrDefault(
