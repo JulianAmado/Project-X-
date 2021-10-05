@@ -1,0 +1,36 @@
+﻿@page
+@model MyApp.Namespace.DeleteDomiciliarioModel
+@{
+}
+<h1> Eliminar Domiciliario </h1>
+<br/>
+<p>¿Está seguro que desea eliminar al Domiciliario?</p>
+<br/>
+<div>
+    <hr/>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.domiciliario.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.domiciliario.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.domiciliario.Documento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.domiciliario.Documento)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.domiciliario.Cargo)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.domiciliario.Cargo)
+        </dd>
+</div>
+
+<form method="post">
+    <input type="hidden" asp-for="domiciliario.Id"/>
+    <input type="submit" value="Si" class="btn btn-danger"/>
+    <a asp-page="./ListDomiciliarios" class="btn btn-primary"> No </a>
+</form>

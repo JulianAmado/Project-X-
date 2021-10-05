@@ -1,0 +1,55 @@
+﻿@page
+@model MyApp.Namespace.EditDomiciliarioModel
+@{
+}
+<h1> Editar Domiciliario </h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <input hidden asp-for="domiciliario.Id" />
+            <div class="form-group">
+                <label asp-for="domiciliario.Nombre" class="control-label"> Nombre Completo </label>
+                <input asp-for="domiciliario.Nombre" class="form-control"  required>
+            </div>
+            <div class="form-group">
+                <label asp-for="domiciliario.Edad" class="control-label"> Edad </label>
+                <input asp-for="domiciliario.Edad" class="form-control"  required>
+            </div>
+            <div class="form-group">
+                <label asp-for="domiciliario.Documento" class="control-label"> Documento de Identidad </label>
+                <input asp-for="domiciliario.Documento" class="form-control"  required>
+            </div>
+            <div class="form-group">
+                <label asp-for="domiciliario.Telefono" class="control-label"> Telefono de contacto </label>
+                <input asp-for="domiciliario.Telefono" class="form-control"  required>
+            </div>
+            <div class="form-group">
+                <label asp-for="domiciliario.CorreoElectronico" class="control-label"> Correo Electrónico </label>
+                <input asp-for="domiciliario.CorreoElectronico" class="form-control"  required>
+            </div>
+            <div class="form-group">
+                <label asp-for="domiciliario.Cargo" class="control-label"> Cargo </label>
+                <input asp-for="domiciliario.Cargo" class="form-control"  required>
+            </div>
+            <div class="form-group">
+                <label asp-for="domiciliario.Horario" class="control-label"> Horario </label>
+                <input asp-for="domiciliario.Horario" class="form-control"  required>
+            </div>
+            <div class="form-group">
+                <label asp-for="domiciliario.Sueldo" class="control-label"> Sueldo </label>
+                <input asp-for="domiciliario.Sueldo" class="form-control"  required>
+            </div>
+            <div class="form-group">
+                <label asp-for="domiciliario.Transporte" class="control-label"> Medio de Transporte </label>
+                <input asp-for="domiciliario.Transporte" class="form-control"  required>
+            </div>
+            <br/>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success"> Guardar </button>
+                <a asp-page="./ListDomiciliarios" class="btn btn-primary"> Cancelar </a>
+            </div>
+        </form>
+    </div>
+
+</div>

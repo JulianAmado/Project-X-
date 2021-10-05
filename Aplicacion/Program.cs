@@ -41,7 +41,7 @@ namespace Aplicacion
             //addEmpleado();
             //GetEmpleado(1);
             //getAllEmpleado();
-            updateEmpleado();
+            //updateEmpleado();
             //deleteEmpleado(1);
             //deleteEmpleado(2);
         }
@@ -182,15 +182,15 @@ namespace Aplicacion
             var domiciliario = new Domiciliario
             {
                
-                Nombre = "Martha Quiñonez",
-                Edad = "22",
-                Documento = "190084154",
-                Telefono = "3148952036",
-                CorreoElectronico = "marthaq@unicauca.edu.co",
+                Nombre = "Pablo Fierro",
+                Edad = "45",
+                Documento = "3442622",
+                Telefono = "3210093334",
+                CorreoElectronico = "pfierro@gmail.com",
                 Cargo = "Domiciliario",
                 Horario = "Diurno",
-                Sueldo = 2000000,
-                Transporte = "Carro"            
+                Sueldo = 86022033,
+                Transporte = "CARRO TPP 903"            
                
 
             };

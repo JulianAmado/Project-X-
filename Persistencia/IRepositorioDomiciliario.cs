@@ -10,5 +10,6 @@ namespace Persistencia
         IEnumerable<Domiciliario> getAllDomiciliario();
         void deleteDomiciliario(int idDomiciliario);
         Domiciliario GetDomiciliario(int idDomiciliario);
+        IEnumerable<Domiciliario> GetDomiciliariosPorFiltro(string filtro);
     }
 }

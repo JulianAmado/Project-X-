@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Dominio;
+using System;
 
 namespace Persistencia
 {
@@ -46,6 +47,20 @@ namespace Persistencia
                 c => c.Id == idDomiciliario
             );
 
+        }
+
+        //función para hacer el filtro por domiciliario
+         IEnumerable<Domiciliario> IRepositorioDomiciliario.GetDomiciliariosPorFiltro(string filtro)
+        {
+            IEnumerable<Domiciliario> domiciliarios = _appContext.Domiciliarios;
+            if (domiciliarios != null) 
+            {
+                if (!String.IsNullOrEmpty(filtro)) 
+                {
+                    domiciliarios = domiciliarios.Where(s => s.Nombre.Contains(filtro));
+                }
+            }
+            return domiciliarios;
         }
 
         Domiciliario IRepositorioDomiciliario.updateDomiciliario(Domiciliario domiciliario)

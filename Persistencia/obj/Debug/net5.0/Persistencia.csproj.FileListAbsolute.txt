@@ -70,3 +70,21 @@ C:\Users\paola\Documents\PROYECTOS\Project X\Project-X-\Persistencia\bin\Debug\n
 C:\Users\paola\Documents\PROYECTOS\Project X\Project-X-\Persistencia\bin\Debug\net5.0\Dominio.pdb
 C:\Users\paola\Documents\PROYECTOS\Project X\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CopyComplete
 C:\Users\paola\Documents\PROYECTOS\Project X\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\bin\Debug\net5.0\Persistencia.deps.json
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.json
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.dev.json
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\bin\Debug\net5.0\Persistencia.dll
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\bin\Debug\net5.0\ref\Persistencia.dll
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\bin\Debug\net5.0\Persistencia.pdb
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\bin\Debug\net5.0\Dominio.dll
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\bin\Debug\net5.0\Dominio.pdb
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.csproj.AssemblyReference.cache
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfoInputs.cache
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfo.cs
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CopyComplete
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.dll
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.pdb
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache

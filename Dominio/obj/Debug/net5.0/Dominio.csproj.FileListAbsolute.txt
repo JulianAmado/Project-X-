@@ -46,3 +46,15 @@ C:\Users\paola\Documents\PROYECTOS\Project X\Project-X-\Dominio\obj\Debug\net5.0
 C:\Users\paola\Documents\PROYECTOS\Project X\Project-X-\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\Users\paola\Documents\PROYECTOS\Project X\Project-X-\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\Users\paola\Documents\PROYECTOS\Project X\Project-X-\Dominio\obj\Debug\net5.0\Dominio.pdb
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\bin\Debug\net5.0\Dominio.deps.json
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\bin\Debug\net5.0\Dominio.dll
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\bin\Debug\net5.0\Dominio.pdb
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\obj\Debug\net5.0\Dominio.dll
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\Dominio\obj\Debug\net5.0\Dominio.pdb

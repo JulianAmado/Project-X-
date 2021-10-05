@@ -1,0 +1,53 @@
+﻿@page
+@model MyApp.Namespace.ListDomiciliariosModel
+@{
+}
+<h1> Lista de Domiciliarios </h1>
+<form method="get">
+    <div class="form-group">
+        <p>
+            Buscar: <input type="text" name="filtroBusqueda" asp-for="FiltroBusquedaDomiciliario"/>
+            <input type="submit" value="Filtrar" />
+        </p>
+</form>
+
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Cargo</th>
+            <th scope="col">Telefono</th>
+            <th scope="col">Transporte</th>
+            <th scope="col">Detalles</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Borrar</th>
+        </tr>
+    </thead>
+    @foreach (var domiciliario in Model.Domiciliarios)
+    {
+        <tr>
+            <td>@domiciliario.Nombre</td>
+            <td>@domiciliario.Cargo</td>
+            <td>@domiciliario.Telefono</td>
+            <td>@domiciliario.Transporte</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetailDomiciliario" asp-route-domiciliarioId="@domiciliario.Id">
+                    <i class="fas fa-info-circle fa-lg"></i>
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditDomiciliario" asp-route-domiciliarioId="@domiciliario.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i> @*Icono de fontawesome*@
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DeleteDomiciliario" asp-route-domiciliarioId="@domiciliario.Id">
+                    <i class="far fa-trash-alt"></i>
+                </a>
+            </td>
+        </tr>       
+
+    }
+</table>
+<!--Botón Crear-->
+<a class = "btn btn-primary table-btn" asp-page="./AddDomiciliario"> Crear Domiciliario </a>
