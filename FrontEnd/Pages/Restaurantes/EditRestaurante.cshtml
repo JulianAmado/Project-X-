@@ -1,0 +1,50 @@
+﻿@page
+@model FrontEnd.Pages.EditRestauranteModel
+@{
+}
+<h1> Editar Restaurante </h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <input hidden asp-for="Restaurante.Id" />
+            <div class="form-group">
+                <label asp-for="Restaurante.Nombre" class="control-label"> Nombre Restaurante </label>
+                <input asp-for="Restaurante.Nombre" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurante.NIT" class="control-label"> NIT </label>
+                <input asp-for="Restaurante.NIT" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurante.Razon_Social" class="control-label"> Razón Social </label>
+                <input asp-for="Restaurante.Razon_Social" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurante.Calificacion" class="control-label"> Calificación </label>
+                <input asp-for="Restaurante.Calificacion" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurante.UbicacionEmpresa" class="control-label"> Ubicación/Dirección </label>
+                <input asp-for="Restaurante.UbicacionEmpresa" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurante.TelefonoEmpresa" class="control-label"> Teléfono Restaurante </label>
+                <input asp-for="Restaurante.TelefonoEmpresa" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurante.CorreoEmpresa" class="control-label"> Correo Eléctronico </label>
+                <input asp-for="Restaurante.CorreoEmpresa" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="Restaurante.Menu" class="control-label"> Menu del Restaurante </label>
+                <input asp-for="Restaurante.Menu" class="form-control" required>
+            </div>
+            <br />
+            <div class="form-group">
+                <button type="submit" class="btn btn-success"> Guardar </button>
+                <a asp-page="./ListRestaurantes" class="btn btn-primary"> Cancelar </a>
+            </div>
+        </form>
+    </div>
+</div>

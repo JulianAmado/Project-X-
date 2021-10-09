@@ -6,7 +6,7 @@ namespace Dominio
     {
         public int Id {get;set;}
         public String Nombre {get;set;}
-        public String NIT {get;set;}    
+        public String NIT {get;set;}
         public String Razon_Social {get;set;}
         public int Calificacion {get;set;}
         public String UbicacionEmpresa {get;set;}

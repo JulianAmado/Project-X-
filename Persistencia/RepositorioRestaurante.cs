@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Dominio;
@@ -43,6 +44,19 @@ namespace Persistencia
             return _appContext.Restaurantes.FirstOrDefault(
                 r => r.Id == idRestaurante
             );
+        }
+
+        IEnumerable<Restaurante> IRepositorioRestaurante.GetRestaurantesPorFiltro(string filtro)
+        {
+            IEnumerable<Restaurante> restaurantes = _appContext.Restaurantes;
+            if (restaurantes != null)
+            {
+                if (!String.IsNullOrEmpty(filtro))
+                {
+                    restaurantes = restaurantes.Where(s => s.Nombre.Contains(filtro));
+                }
+            }
+            return restaurantes;
         }
 
         Restaurante IRepositorioRestaurante.updateRestaurante(Restaurante restaurante)

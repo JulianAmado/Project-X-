@@ -1,0 +1,66 @@
+﻿@page
+@model FrontEnd.Pages.DetailRestauranteModel
+@{
+}
+<h1> Detalle Restaurante </h1>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.Restaurante.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.Restaurante.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.Restaurante.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.Restaurante.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.Restaurante.NIT)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.Restaurante.NIT)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.Restaurante.Razon_Social)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.Restaurante.Razon_Social)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.Restaurante.Calificacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.Restaurante.Calificacion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.Restaurante.UbicacionEmpresa)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.Restaurante.UbicacionEmpresa)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.Restaurante.TelefonoEmpresa)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.Restaurante.TelefonoEmpresa)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.Restaurante.CorreoEmpresa)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.Restaurante.CorreoEmpresa)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.Restaurante.Menu)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.Restaurante.Menu)
+        </dd>
+    </dl>
+</div>
+
+<a asp-page="./ListRestaurantes" class="btn btn-primary"> Regresar </a>

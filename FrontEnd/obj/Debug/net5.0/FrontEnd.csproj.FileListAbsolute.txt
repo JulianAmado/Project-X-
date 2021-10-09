@@ -208,3 +208,13 @@ C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\FrontEnd\obj\Debug\net5.0\Raz
 C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Domiciliarios\DeleteDomiciliario.cshtml.g.cs
 C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Domiciliarios\DetailDomiciliario.cshtml.g.cs
 C:\Users\paola\Documents\PROYECTOS\CRUD\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Domiciliarios\EditDomiciliario.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Domiciliarios\AddDomiciliario.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Domiciliarios\DeleteDomiciliario.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Domiciliarios\DetailDomiciliario.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Domiciliarios\EditDomiciliario.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Domiciliarios\ListDomiciliarios.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Restaurantes\ListRestaurantes.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Restaurantes\AddRestaurantes.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Restaurantes\DetailRestaurante.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Restaurantes\EditRestaurante.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Restaurantes\DeleteRestaurante.cshtml.g.cs

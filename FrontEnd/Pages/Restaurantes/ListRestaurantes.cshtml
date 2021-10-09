@@ -1,0 +1,55 @@
+﻿@page
+@model FrontEnd.Pages.ListRestaurantesModel
+@{
+}
+<h1> Lista de Restaurantes </h1>
+<form method="get">
+    <div class="form-group">
+        <p>
+            Buscar: <input type="text" name="filtroBusqueda" asp-for="FiltroBusquedaRestaurante"/>
+            <input type="submit" value="Filtrar" />
+        </p>
+</form>
+
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">NIT</th>
+            <th scope="col">Calificación</th>
+            <th scope="col">Ubicación</th>
+            <th scope="col">Teléfono</th>
+            <th scope="col">Detalles</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Eliminar</th>
+        </tr>
+    </thead>
+    @foreach (var restaurante in Model.Restaurantes)
+    {
+        <tr>
+            <td>@restaurante.Nombre</td>
+            <td>@restaurante.NIT</td>
+            <td>@restaurante.Calificacion</td>
+            <td>@restaurante.UbicacionEmpresa</td>
+            <td>@restaurante.TelefonoEmpresa</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetailRestaurante" asp-route-restauranteId="@restaurante.Id">
+                    <i class="fas fa-info-circle fa-lg"></i>
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditRestaurante" asp-route-restauranteId="@restaurante.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DeleteRestaurante" asp-route-restauranteId="@restaurante.Id">
+                    <i class="far fa-trash-alt"></i>
+                </a>
+            </td>
+        </tr>       
+
+    }
+</table>
+<!--Botón Crear-->
+<a class = "btn btn-primary table-btn" asp-page="./AddRestaurantes"> Crear Restaurante </a>

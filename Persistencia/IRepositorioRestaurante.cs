@@ -10,5 +10,6 @@ namespace Persistencia
         IEnumerable<Restaurante> getAllRestaurante();
         void deleteRestaurante(int idRestaurante);
         Restaurante GetRestaurante(int idRestaurante);
+        IEnumerable<Restaurante> GetRestaurantesPorFiltro(string filtro);
     }
 }

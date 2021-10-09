@@ -28,7 +28,6 @@ namespace MyApp.Namespace
             //Domiciliarios=repositorioDomiciliario.getAllDomiciliario();
             FiltroBusquedaDomiciliario = filtroBusqueda;
             Domiciliarios = repositorioDomiciliario.GetDomiciliariosPorFiltro(filtroBusqueda);
-            
         }
     }
 }
