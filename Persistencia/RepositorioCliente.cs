@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Dominio;
@@ -46,6 +47,20 @@ namespace Persistencia
                 c => c.Id == idCliente
             );
 
+        }
+
+        //función para hacer el filtro por Cliente
+         IEnumerable<Cliente> IRepositorioCliente.GetClientesPorFiltro(string filtro)
+        {
+            IEnumerable<Cliente> clientes = _appContext.Clientes;
+            if (clientes != null) 
+            {
+                if (!String.IsNullOrEmpty(filtro)) 
+                {
+                    clientes = clientes.Where(s => s.Nombre.Contains(filtro));
+                }
+            }
+            return clientes;
         }
 
         Cliente IRepositorioCliente.updateCliente(Cliente cliente)

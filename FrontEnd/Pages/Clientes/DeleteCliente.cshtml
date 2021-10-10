@@ -1,0 +1,36 @@
+﻿@page
+@model MyApp.Namespace.DeleteClienteModel
+@{
+}
+<h1> Eliminar Cliente </h1>
+<br/>
+<p>¿Está seguro que desea eliminar al Cliente?</p>
+<br/>
+<div>
+    <hr/>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.cliente.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.cliente.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.cliente.Documento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.cliente.Documento)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.cliente.Telefono)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.cliente.Telefono)
+        </dd>
+</div>
+
+<form method="post">
+    <input type="hidden" asp-for="cliente.Id"/>
+    <input type="submit" value="Si" class="btn btn-danger"/>
+    <a asp-page="./ListClientes" class="btn btn-primary"> No </a>
+</form>

@@ -1,0 +1,47 @@
+﻿@page
+@model MyApp.Namespace.AddClienteModel
+@{
+}
+<h1> Agregar Cliente </h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <input hidden asp-for="clienteNuevo.Id" />
+            <div class="form-group">
+                <label asp-for="clienteNuevo.Nombre" class="control-label"> Nombre Completo </label>
+                <input asp-for="clienteNuevo.Nombre" class="form-control" value="" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="clienteNuevo.Edad" class="control-label"> Edad </label>
+                <input asp-for="clienteNuevo.Edad" class="form-control" value="" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="clienteNuevo.Documento" class="control-label"> Documento de Identidad </label>
+                <input asp-for="clienteNuevo.Documento" class="form-control" value="" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="clienteNuevo.Telefono" class="control-label"> Telefono de contacto </label>
+                <input asp-for="clienteNuevo.Telefono" class="form-control" value="" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="clienteNuevo.CorreoElectronico" class="control-label"> Correo Electrónico </label>
+                <input asp-for="clienteNuevo.CorreoElectronico" class="form-control" value="" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="clienteNuevo.Direccion" class="control-label"> Dirección </label>
+                <input asp-for="clienteNuevo.Direccion" class="form-control" value="" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="clienteNuevo.Forma_pago" class="control-label"> Forma de Pago </label>
+                <input asp-for="clienteNuevo.Forma_pago" class="form-control" value="" required>
+            </div>            
+            <br/>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success"> Guardar </button>
+                <a asp-page="./ListClientes" class="btn btn-primary"> Cancelar </a>
+            </div>
+        </form>
+    </div>
+
+</div>

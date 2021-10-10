@@ -1,0 +1,60 @@
+﻿@page
+@model MyApp.Namespace.DetailClienteModel
+@{
+}
+<h1> Detalle del Cliente </h1>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.cliente.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.cliente.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.cliente.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.cliente.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.cliente.Edad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.cliente.Edad)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.cliente.Documento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.cliente.Documento)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.cliente.Telefono)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.cliente.Telefono)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.cliente.CorreoElectronico)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.cliente.CorreoElectronico)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.cliente.Direccion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.cliente.Direccion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => Model.cliente.Forma_pago)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => Model.cliente.Forma_pago)
+        </dd>        
+    </dl>
+</div>
+
+<a asp-page="./ListClientes" class="btn btn-primary"> Regresar </a>

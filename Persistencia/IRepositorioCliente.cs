@@ -10,5 +10,6 @@ namespace Persistencia
         IEnumerable<Cliente> getAllCliente();
         void deleteCliente(int idCliente);
         Cliente GetCliente(int idCliente);
+        IEnumerable<Cliente> GetClientesPorFiltro(string filtro);
     }
 }

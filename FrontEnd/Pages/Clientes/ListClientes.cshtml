@@ -1,0 +1,53 @@
+﻿@page
+@model MyApp.Namespace.ListClientesModel
+@{
+}
+<h1> Lista de Clientes </h1>
+<form method="get">
+    <div class="form-group">
+        <p>
+            Buscar: <input type="text" name="filtroBusqueda" asp-for="FiltroBusquedaCliente"/>
+            <input type="submit" value="Filtrar" />
+        </p>
+</form>
+
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Teléfono</th>
+            <th scope="col">Dirección</th>
+            <th scope="col">Correo</th>
+            <th scope="col">Detalles</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Borrar</th>
+        </tr>
+    </thead>
+    @foreach (var cliente in Model.Clientes)
+    {
+        <tr>
+            <td>@cliente.Nombre</td>
+            <td>@cliente.Telefono</td>
+            <td>@cliente.Direccion</td>
+            <td>@cliente.CorreoElectronico</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetailCliente" asp-route-clienteId="@cliente.Id">
+                    <i class="fas fa-info-circle fa-lg"></i>
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditCliente" asp-route-clienteId="@cliente.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i> @*Icono de fontawesome*@
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DeleteCliente" asp-route-clienteId="@cliente.Id">
+                    <i class="far fa-trash-alt"></i>
+                </a>
+            </td>
+        </tr>       
+
+    }
+</table>
+<!--Botón Crear-->
+<a class = "btn btn-primary table-btn" asp-page="./AddCliente"> Crear Cliente </a>
