@@ -412,3 +412,4 @@ C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\obj\Debug\net5.0
 C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\obj\Debug\net5.0\ref\FrontEnd.dll
 C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\obj\Debug\net5.0\FrontEnd.pdb
 C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\obj\Debug\net5.0\FrontEnd.genruntimeconfig.cache
+C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\obj\Debug\net5.0\Razor\Pages\Pedidos\Pedidos.cshtml.g.cs
