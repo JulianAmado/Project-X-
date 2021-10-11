@@ -2,17 +2,58 @@
 @model FrontEnd.Pages.ProductosModel
 @{
 }
-<table class="table"></table>
-@foreach (var Producto in Model.Producto)
-{
-   <tr>
-      <td>
+<h1> Lista de Productos </h1>
+<form method="get">
+    <div class="form-group">
+        <p>
+            Buscar: <input type="text" name="filtroBusqueda" asp-for="FiltroBusquedaProducto"/>
+            <input type="submit" value="Filtrar" />
+        </p>
+</form>
 
-         
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Descripción</th>
+            <th scope="col">Descuento</th>
+            <th scope="col">PrecioFinal</th>
+            
+        </tr>
+    </thead>
+    @foreach (var producto in Model.Productos)
+    {
+        <tr>
+            <td>@producto.Id</td>
+            <td>@producto.Nombre</td>
+            <td>@producto.Cantidad</td>
+            <td>@producto.Descripcion</td>
+            <td>@producto.Descuento</td>
+            <td>@producto.PrecioFinal</td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetailProducto" asp-route-productoId="@producto.Id">
+                    <i class="fas fa-info-circle fa-lg"></i>
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditProducto" asp-route-productoId="@producto.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"></i>
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./DeleteProducto" asp-route-productoId="@producto.Id">
+                    <i class="far fa-trash-alt"></i>
+                </a>
+            </td>
+        </tr>       
 
+    }
+</table>
+<!--Botón Crear-->
+<a class = "btn btn-primary table-btn" asp-page="./AddProductos"> Crear Producto </a>
 
-   </tr>
-}
 
 
 

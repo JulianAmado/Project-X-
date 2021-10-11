@@ -2,39 +2,10 @@
 
 namespace Persistencia.Migrations
 {
-    public partial class Entidades : Migration
+    public partial class tables : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
-                name: "Clientes",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Forma_pago = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Clientes", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Empleados",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Cargo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Horario = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Sueldo = table.Column<double>(type: "float", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Empleados", x => x.Id);
-                });
-
             migrationBuilder.CreateTable(
                 name: "Empresas",
                 columns: table => new
@@ -47,7 +18,9 @@ namespace Persistencia.Migrations
                     Calificacion = table.Column<int>(type: "int", nullable: false),
                     UbicacionEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TelefonoEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CorreoEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    CorreoEmpresa = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Menu = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -71,27 +44,49 @@ namespace Persistencia.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Restaurantes",
+                name: "Personas",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Menu = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Edad = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Documento = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Telefono = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CorreoElectronico = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Forma_pago = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Cargo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Horario = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Sueldo = table.Column<double>(type: "float", nullable: true),
+                    Transporte = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Restaurantes", x => x.Id);
+                    table.PrimaryKey("PK_Personas", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Productos",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Cantidad = table.Column<int>(type: "int", nullable: false),
+                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Descuento = table.Column<double>(type: "float", nullable: false),
+                    PrecioFinal = table.Column<double>(type: "float", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Productos", x => x.Id);
                 });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "Clientes");
-
-            migrationBuilder.DropTable(
-                name: "Empleados");
-
             migrationBuilder.DropTable(
                 name: "Empresas");
 
@@ -99,7 +94,10 @@ namespace Persistencia.Migrations
                 name: "Pedidos");
 
             migrationBuilder.DropTable(
-                name: "Restaurantes");
+                name: "Personas");
+
+            migrationBuilder.DropTable(
+                name: "Productos");
         }
     }
 }
