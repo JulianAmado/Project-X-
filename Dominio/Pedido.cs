@@ -6,8 +6,9 @@ namespace Dominio
     {
         public int Id {get;set;}
         public int Factura {get;set;}
-        public String Producto {get;set;}
-        public String Descuento {get;set;}
+        public Producto Productos {get;set;}   
         public String Ubicacion {get;set;}
+        public double Precio {get;set;}
+        public String FormaPago {get;set;}
     }
 }

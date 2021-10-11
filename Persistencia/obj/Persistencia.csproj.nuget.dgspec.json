@@ -1,6 +1,19 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
+    "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\Persistencia.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj",
+        "projectName": "Dominio",
+        "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\fabianandres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\obj\\",
+=======
     "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Persistencia\\Persistencia.csproj": {}
   },
   "projects": {
@@ -12,12 +25,17 @@
         "projectPath": "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\Jorge Amado Perdomo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Dominio\\obj\\",
+>>>>>>> 4097a16b05b1ad5a4b6b5b3b36ef60f14b4d682f
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
+          "C:\\Users\\fabianandres\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
           "C:\\Users\\Jorge Amado Perdomo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 4097a16b05b1ad5a4b6b5b3b36ef60f14b4d682f
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -55,10 +73,20 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
+<<<<<<< HEAD
+    "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\Persistencia.csproj",
+        "projectName": "Persistencia",
+        "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\fabianandres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\obj\\",
+=======
     "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -67,12 +95,17 @@
         "projectPath": "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\Jorge Amado Perdomo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Persistencia\\obj\\",
+>>>>>>> 4097a16b05b1ad5a4b6b5b3b36ef60f14b4d682f
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
+          "C:\\Users\\fabianandres\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
           "C:\\Users\\Jorge Amado Perdomo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+>>>>>>> 4097a16b05b1ad5a4b6b5b3b36ef60f14b4d682f
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -84,8 +117,13 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+<<<<<<< HEAD
+              "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj": {
+                "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj"
+=======
               "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Dominio\\Dominio.csproj": {
                 "projectPath": "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Dominio\\Dominio.csproj"
+>>>>>>> 4097a16b05b1ad5a4b6b5b3b36ef60f14b4d682f
               }
             }
           }
@@ -132,7 +170,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "QzTBwdTHbWPGv/ZiZO2nOC9T0B1r8LgzsWvNnTwoSkzIAxH3qEGIR6NEl8DEz5QmogkhXUkzNdK6AAcC2A8UQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj",
+=======
   "dgSpecHash": "3GZZ05/dmLAt4q32bip27W8ZdcHLavfPdwSCFK4Ivc0SSz+Nyesz5wT8m90LDddJX3FZanA5d5ym1XHTneJAWg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Dominio\\Dominio.csproj",
+>>>>>>> 4097a16b05b1ad5a4b6b5b3b36ef60f14b4d682f
   "expectedPackageFiles": [],
   "logs": []
 }

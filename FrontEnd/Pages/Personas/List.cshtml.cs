@@ -12,7 +12,7 @@ namespace MyApp.Namespace
     public class ListModel : PageModel
     {
         private readonly IRepositorioPersona repositorioPersona;
-        public IEnumerable<Persona> Personas { get; set; }
+        public IEnumerable <Persona> Personas { get; set; }
         public ListModel(IRepositorioPersona repositorioPersona)
         {
             this.repositorioPersona = repositorioPersona;
