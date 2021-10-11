@@ -106,3 +106,21 @@ C:\Users\paola\Documents\PROYECTOS\PROYECTO 9-10-2021\Project-X-\Persistencia\ob
 C:\Users\paola\Documents\PROYECTOS\PROYECTO 9-10-2021\Project-X-\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
 C:\Users\paola\Documents\PROYECTOS\PROYECTO 9-10-2021\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.pdb
 C:\Users\paola\Documents\PROYECTOS\PROYECTO 9-10-2021\Project-X-\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\bin\Debug\net5.0\Persistencia.deps.json
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.json
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\bin\Debug\net5.0\Persistencia.runtimeconfig.dev.json
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\bin\Debug\net5.0\Persistencia.dll
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\bin\Debug\net5.0\ref\Persistencia.dll
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\bin\Debug\net5.0\Persistencia.pdb
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\bin\Debug\net5.0\Dominio.dll
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\bin\Debug\net5.0\Dominio.pdb
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\obj\Debug\net5.0\Persistencia.csproj.AssemblyReference.cache
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\obj\Debug\net5.0\Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfoInputs.cache
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\obj\Debug\net5.0\Persistencia.AssemblyInfo.cs
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\obj\Debug\net5.0\Persistencia.csproj.CopyComplete
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\obj\Debug\net5.0\Persistencia.dll
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\obj\Debug\net5.0\ref\Persistencia.dll
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\obj\Debug\net5.0\Persistencia.pdb
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Persistencia\obj\Debug\net5.0\Persistencia.genruntimeconfig.cache

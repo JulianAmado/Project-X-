@@ -8,19 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\paola\\.nuget\\packages\\": {}
+    "C:\\Users\\Jorge Amado Perdomo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\paola\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\Jorge Amado Perdomo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\paola\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Jorge Amado Perdomo\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

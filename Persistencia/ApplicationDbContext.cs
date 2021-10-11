@@ -7,7 +7,7 @@ namespace Persistencia
     public class ApplicationDbContext : DbContext
     {
 
-        private const String connectionString= @"Data Source= LAPTOP-ALKIBGK0\SQLEXPRESS;Initial Catalog= DatabaseX ; Integrated Security=True";
+        private const String connectionString= @"Data Source= DESKTOP-H1T053M;Initial Catalog= DatabaseX ; Integrated Security=True";
 
 
         public DbSet <Persona> Personas {get;set;}

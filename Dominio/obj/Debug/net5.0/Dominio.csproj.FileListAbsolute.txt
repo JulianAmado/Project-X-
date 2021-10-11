@@ -70,3 +70,15 @@ C:\Users\paola\Documents\PROYECTOS\PROYECTO 9-10-2021\Project-X-\Dominio\obj\Deb
 C:\Users\paola\Documents\PROYECTOS\PROYECTO 9-10-2021\Project-X-\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\Users\paola\Documents\PROYECTOS\PROYECTO 9-10-2021\Project-X-\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\Users\paola\Documents\PROYECTOS\PROYECTO 9-10-2021\Project-X-\Dominio\obj\Debug\net5.0\Dominio.pdb
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\bin\Debug\net5.0\Dominio.deps.json
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\bin\Debug\net5.0\Dominio.dll
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\bin\Debug\net5.0\Dominio.pdb
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\obj\Debug\net5.0\Dominio.dll
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\Dominio\obj\Debug\net5.0\Dominio.pdb
