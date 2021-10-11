@@ -513,4 +513,11 @@ C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desar
 C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\FrontEnd\obj\Debug\net5.0\FrontEnd.pdb
 C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\FrontEnd\obj\Debug\net5.0\FrontEnd.genruntimeconfig.cache
 C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\FrontEnd\obj\Debug\net5.0\Razor\Pages\Productos\Productos.cshtml.g.cs
+<<<<<<< HEAD
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\FrontEnd\obj\Debug\net5.0\Razor\Pages\Productos\addProductos.cshtml.g.cs
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\FrontEnd\obj\Debug\net5.0\Razor\Pages\Productos\DetailProducto.cshtml.g.cs
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\FrontEnd\obj\Debug\net5.0\Razor\Pages\Productos\DeleteProducto.cshtml.g.cs
+C:\Users\Jorge Amado Perdomo\Documents\Julian\U.C (NO SEA SAPO)\Semestre 3\Desarrollo de Software\101310\FrontEnd\obj\Debug\net5.0\Razor\Pages\Productos\EditProducto.cshtml.g.cs
+=======
 >>>>>>> 4097a16b05b1ad5a4b6b5b3b36ef60f14b4d682f
+>>>>>>> 12313884364a4c676463731bd6819df75cb3c997

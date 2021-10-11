@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\FrontEnd.csproj",
+  "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\FrontEnd.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,143 +15619,168 @@
   "RootNamespace": "FrontEnd",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Personas\\List.cshtml",
-      "TargetPath": "Pages\\Personas\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Empleados\\Details.cshtml",
-      "TargetPath": "Pages\\Empleados\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Clientes\\DeleteCliente.cshtml",
-      "TargetPath": "Pages\\Clientes\\DeleteCliente.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Restaurantes\\DetailRestaurante.cshtml",
-      "TargetPath": "Pages\\Restaurantes\\DetailRestaurante.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Clientes\\DetailCliente.cshtml",
-      "TargetPath": "Pages\\Clientes\\DetailCliente.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Empleados\\DeleteEmpleado.cshtml",
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Empleados\\DeleteEmpleado.cshtml",
       "TargetPath": "Pages\\Empleados\\DeleteEmpleado.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Clientes\\EditCliente.cshtml",
-      "TargetPath": "Pages\\Clientes\\EditCliente.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Empleados\\AddEmpleado.cshtml",
-      "TargetPath": "Pages\\Empleados\\AddEmpleado.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Empleados\\List.cshtml",
-      "TargetPath": "Pages\\Empleados\\List.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Restaurantes\\ListRestaurantes.cshtml",
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Restaurantes\\ListRestaurantes.cshtml",
       "TargetPath": "Pages\\Restaurantes\\ListRestaurantes.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Productos\\DetailProducto.cshtml",
+      "TargetPath": "Pages\\Productos\\DetailProducto.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Domiciliarios\\ListDomiciliarios.cshtml",
-      "TargetPath": "Pages\\Domiciliarios\\ListDomiciliarios.cshtml",
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Clientes\\ListClientes.cshtml",
-      "TargetPath": "Pages\\Clientes\\ListClientes.cshtml",
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Personas\\List.cshtml",
+      "TargetPath": "Pages\\Personas\\List.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Restaurantes\\DeleteRestaurante.cshtml",
-      "TargetPath": "Pages\\Restaurantes\\DeleteRestaurante.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Domiciliarios\\AddDomiciliario.cshtml",
-      "TargetPath": "Pages\\Domiciliarios\\AddDomiciliario.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Empleados\\EditEmpleado.cshtml",
-      "TargetPath": "Pages\\Empleados\\EditEmpleado.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Clientes\\AddCliente.cshtml",
-      "TargetPath": "Pages\\Clientes\\AddCliente.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Domiciliarios\\EditDomiciliario.cshtml",
-      "TargetPath": "Pages\\Domiciliarios\\EditDomiciliario.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Domiciliarios\\DetailDomiciliario.cshtml",
-      "TargetPath": "Pages\\Domiciliarios\\DetailDomiciliario.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Domiciliarios\\DeleteDomiciliario.cshtml",
-      "TargetPath": "Pages\\Domiciliarios\\DeleteDomiciliario.cshtml",
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Restaurantes\\EditRestaurante.cshtml",
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Domiciliarios\\DetailDomiciliario.cshtml",
+      "TargetPath": "Pages\\Domiciliarios\\DetailDomiciliario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Restaurantes\\AddRestaurantes.cshtml",
+      "TargetPath": "Pages\\Restaurantes\\AddRestaurantes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Empleados\\List.cshtml",
+      "TargetPath": "Pages\\Empleados\\List.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Productos\\addProductos.cshtml",
+      "TargetPath": "Pages\\Productos\\addProductos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Productos\\Productos.cshtml",
+      "TargetPath": "Pages\\Productos\\Productos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Restaurantes\\DeleteRestaurante.cshtml",
+      "TargetPath": "Pages\\Restaurantes\\DeleteRestaurante.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Clientes\\ListClientes.cshtml",
+      "TargetPath": "Pages\\Clientes\\ListClientes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Empleados\\Details.cshtml",
+      "TargetPath": "Pages\\Empleados\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Restaurantes\\DetailRestaurante.cshtml",
+      "TargetPath": "Pages\\Restaurantes\\DetailRestaurante.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Clientes\\AddCliente.cshtml",
+      "TargetPath": "Pages\\Clientes\\AddCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Empleados\\AddEmpleado.cshtml",
+      "TargetPath": "Pages\\Empleados\\AddEmpleado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Domiciliarios\\AddDomiciliario.cshtml",
+      "TargetPath": "Pages\\Domiciliarios\\AddDomiciliario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Empleados\\EditEmpleado.cshtml",
+      "TargetPath": "Pages\\Empleados\\EditEmpleado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Productos\\DeleteProducto.cshtml",
+      "TargetPath": "Pages\\Productos\\DeleteProducto.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Clientes\\DetailCliente.cshtml",
+      "TargetPath": "Pages\\Clientes\\DetailCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Clientes\\DeleteCliente.cshtml",
+      "TargetPath": "Pages\\Clientes\\DeleteCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Clientes\\EditCliente.cshtml",
+      "TargetPath": "Pages\\Clientes\\EditCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Restaurantes\\EditRestaurante.cshtml",
       "TargetPath": "Pages\\Restaurantes\\EditRestaurante.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\paola\\Documents\\PROYECTOS\\PROYECTO 9-10-2021\\Project-X-\\FrontEnd\\Pages\\Restaurantes\\AddRestaurantes.cshtml",
-      "TargetPath": "Pages\\Restaurantes\\AddRestaurantes.cshtml",
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Domiciliarios\\DeleteDomiciliario.cshtml",
+      "TargetPath": "Pages\\Domiciliarios\\DeleteDomiciliario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Productos\\EditProducto.cshtml",
+      "TargetPath": "Pages\\Productos\\EditProducto.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Domiciliarios\\EditDomiciliario.cshtml",
+      "TargetPath": "Pages\\Domiciliarios\\EditDomiciliario.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Jorge Amado Perdomo\\Documents\\Julian\\U.C (NO SEA SAPO)\\Semestre 3\\Desarrollo de Software\\101310\\FrontEnd\\Pages\\Domiciliarios\\ListDomiciliarios.cshtml",
+      "TargetPath": "Pages\\Domiciliarios\\ListDomiciliarios.cshtml",
       "FileKind": "mvc"
     }
   ],

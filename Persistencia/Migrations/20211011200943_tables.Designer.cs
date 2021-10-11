@@ -9,8 +9,8 @@ using Persistencia;
 namespace Persistencia.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210918162410_Entidades")]
-    partial class Entidades
+    [Migration("20211011200943_tables")]
+    partial class tables
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -19,45 +19,6 @@ namespace Persistencia.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.9")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-            modelBuilder.Entity("Dominio.Cliente", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Direccion")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Forma_pago")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Clientes");
-                });
-
-            modelBuilder.Entity("Dominio.Empleado", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("Cargo")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Horario")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<double>("Sueldo")
-                        .HasColumnType("float");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Empleados");
-                });
 
             modelBuilder.Entity("Dominio.Empresa", b =>
                 {
@@ -70,6 +31,10 @@ namespace Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("CorreoEmpresa")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("NIT")
@@ -90,6 +55,8 @@ namespace Persistencia.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Empresas");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Empresa");
                 });
 
             modelBuilder.Entity("Dominio.Pedido", b =>
@@ -126,6 +93,10 @@ namespace Persistencia.Migrations
                     b.Property<string>("CorreoElectronico")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Documento")
                         .HasColumnType("nvarchar(max)");
 
@@ -141,21 +112,84 @@ namespace Persistencia.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Personas");
+
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Persona");
                 });
 
-            modelBuilder.Entity("Dominio.Restaurante", b =>
+            modelBuilder.Entity("Dominio.Producto", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Menu")
+                    b.Property<int>("Cantidad")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Descuento")
+                        .HasColumnType("float");
+
+                    b.Property<string>("Nombre")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("PrecioFinal")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Restaurantes");
+                    b.ToTable("Productos");
+                });
+
+            modelBuilder.Entity("Dominio.Restaurante", b =>
+                {
+                    b.HasBaseType("Dominio.Empresa");
+
+                    b.Property<string>("Menu")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("Restaurante");
+                });
+
+            modelBuilder.Entity("Dominio.Cliente", b =>
+                {
+                    b.HasBaseType("Dominio.Persona");
+
+                    b.Property<string>("Direccion")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Forma_pago")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("Cliente");
+                });
+
+            modelBuilder.Entity("Dominio.Empleado", b =>
+                {
+                    b.HasBaseType("Dominio.Persona");
+
+                    b.Property<string>("Cargo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Horario")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<double>("Sueldo")
+                        .HasColumnType("float");
+
+                    b.HasDiscriminator().HasValue("Empleado");
+                });
+
+            modelBuilder.Entity("Dominio.Domiciliario", b =>
+                {
+                    b.HasBaseType("Dominio.Empleado");
+
+                    b.Property<string>("Transporte")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasDiscriminator().HasValue("Domiciliario");
                 });
 #pragma warning restore 612, 618
         }
