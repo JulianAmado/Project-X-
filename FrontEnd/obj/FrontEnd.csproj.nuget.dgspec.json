@@ -1,33 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\FrontEnd\\FrontEnd.csproj": {}
-=======
-    "C:\\Users\\anosc\\Desktop\\Project-X-\\FrontEnd\\FrontEnd.csproj": {}
->>>>>>> 82a9ab3f4fb866ca7aa16a2681b5088a91e8c379
   },
   "projects": {
-    "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj": {
+    "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-<<<<<<< HEAD
         "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj",
         "packagesPath": "C:\\Users\\fabianandres\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fabianandres\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-        "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\anosc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\anosc\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 82a9ab3f4fb866ca7aa16a2681b5088a91e8c379
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -69,30 +56,17 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\FrontEnd\\FrontEnd.csproj": {
-=======
-    "C:\\Users\\anosc\\Desktop\\Project-X-\\FrontEnd\\FrontEnd.csproj": {
->>>>>>> 82a9ab3f4fb866ca7aa16a2681b5088a91e8c379
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anosc\\Desktop\\Project-X-\\FrontEnd\\FrontEnd.csproj",
+        "projectUniqueName": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\FrontEnd\\FrontEnd.csproj",
         "projectName": "FrontEnd",
-<<<<<<< HEAD
         "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\FrontEnd\\FrontEnd.csproj",
         "packagesPath": "C:\\Users\\fabianandres\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\FrontEnd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fabianandres\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-        "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\FrontEnd\\FrontEnd.csproj",
-        "packagesPath": "C:\\Users\\anosc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\FrontEnd\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\anosc\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 82a9ab3f4fb866ca7aa16a2681b5088a91e8c379
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -104,19 +78,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj": {
                 "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj"
               },
               "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\Persistencia.csproj": {
                 "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\Persistencia.csproj"
-=======
-              "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj"
-              },
-              "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj"
->>>>>>> 82a9ab3f4fb866ca7aa16a2681b5088a91e8c379
               }
             }
           }
@@ -152,30 +118,17 @@
         }
       }
     },
-<<<<<<< HEAD
     "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\Persistencia.csproj": {
-=======
-    "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj": {
->>>>>>> 82a9ab3f4fb866ca7aa16a2681b5088a91e8c379
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-<<<<<<< HEAD
         "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\Persistencia.csproj",
         "packagesPath": "C:\\Users\\fabianandres\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fabianandres\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-        "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\anosc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\anosc\\AppData\\Roaming\\NuGet\\NuGet.Config"
->>>>>>> 82a9ab3f4fb866ca7aa16a2681b5088a91e8c379
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -187,13 +140,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-<<<<<<< HEAD
               "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj": {
                 "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj"
-=======
-              "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj": {
-                "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj"
->>>>>>> 82a9ab3f4fb866ca7aa16a2681b5088a91e8c379
               }
             }
           }

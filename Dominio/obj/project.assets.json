@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\anosc\\.nuget\\packages\\": {}
+    "C:\\Users\\fabianandres\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\anosc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\fabianandres\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anosc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\fabianandres\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

@@ -5814,19 +5814,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\anosc\\.nuget\\packages\\": {}
+    "C:\\Users\\fabianandres\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\Persistencia.csproj",
       "projectName": "Persistencia",
-      "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\Persistencia.csproj",
-      "packagesPath": "C:\\Users\\anosc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\Persistencia.csproj",
+      "packagesPath": "C:\\Users\\fabianandres\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\anosc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\fabianandres\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5838,8 +5838,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj": {
-              "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj"
+            "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj": {
+              "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj"
             }
           }
         }
