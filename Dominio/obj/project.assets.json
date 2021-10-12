@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\fabianandres\\.nuget\\packages\\": {}
+    "C:\\Users\\anosc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj",
+      "projectUniqueName": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj",
       "projectName": "Dominio",
-      "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\Dominio.csproj",
-      "packagesPath": "C:\\Users\\fabianandres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\obj\\",
+      "projectPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\Dominio.csproj",
+      "packagesPath": "C:\\Users\\anosc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anosc\\Desktop\\Project-X-\\Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\fabianandres\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\anosc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -61,13 +61,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Dominio\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
