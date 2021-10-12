@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paola\\Documents\\PROYECTOS\\CRUD\\Project-X-\\Servicios\\Servicios.csproj": {}
+    "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Servicios\\Servicios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paola\\Documents\\PROYECTOS\\CRUD\\Project-X-\\Servicios\\Servicios.csproj": {
+    "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Servicios\\Servicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paola\\Documents\\PROYECTOS\\CRUD\\Project-X-\\Servicios\\Servicios.csproj",
+        "projectUniqueName": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Servicios\\Servicios.csproj",
         "projectName": "Servicios",
-        "projectPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\CRUD\\Project-X-\\Servicios\\Servicios.csproj",
-        "packagesPath": "C:\\Users\\paola\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paola\\Documents\\PROYECTOS\\CRUD\\Project-X-\\Servicios\\obj\\",
+        "projectPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Servicios\\Servicios.csproj",
+        "packagesPath": "C:\\Users\\fabianandres\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fabianandres\\Documents\\Programacion\\Project X\\Servicios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\paola\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\fabianandres\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -61,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -30,6 +30,7 @@ namespace FrontEnd
             services.AddSingleton<IRepositorioCliente>(new RepositorioCliente(new Persistencia.ApplicationDbContext()));
             services.AddSingleton<IRepositorioDomiciliario>(new RepositorioDomiciliario(new Persistencia.ApplicationDbContext()));
             services.AddSingleton<IRepositorioRestaurante>(new RepositorioRestaurante(new Persistencia.ApplicationDbContext()));
+            services.AddSingleton<IRepositorioPedido>(new RepositorioPedido(new Persistencia.ApplicationDbContext()));
             services.AddSingleton<IRepositorioProducto>(new RepositorioProducto(new Persistencia.ApplicationDbContext()));
         }
 

@@ -1,0 +1,74 @@
+﻿@page
+@model FrontEnd.Pages.ListPedidoModel
+@{
+}
+
+<h1>Lista de Pedidos</h1>
+<form method="get">
+
+    <div class="form-group">
+        <p>Buscar: <input type="text" name="filtroBusqueda" asp-for="filtroBusquedaPedido"> 
+
+        <input type="submit" value="Filtrar">
+        </p>
+    </div>
+</form>
+
+<table class="table">
+<thead class="thead-light">
+    <tr>
+    
+        <th scope="col"> N° Factura </th>
+        <th scope="col"> Productos </th>
+        <th scope="col"> Ubicación </th>
+        <th scope="col"> Forma de Pago </th>
+        <th scope="col"> Precio </th>
+        <th scope="col"> Detalles </th>
+        <th scope="col"> Editar </th>
+        <th scope="col"> Borrar </th>
+        
+    </tr>
+
+</thead>
+
+@foreach (var pedido in Model.Pedidos)
+{
+    <tr>
+        <td>@pedido.Factura</td>
+        <td>@pedido.Productos</td>
+        <td>@pedido.Ubicacion</td>
+        <td>@pedido.FormaPago</td>
+        <td>@pedido.Precio</td>
+        <td>
+            <a class="btn btn-primaty table-btn" asp-page="./DetailPedido" asp-route-pedidoId="@pedido.Id">
+            <i class="fas fa-info-circle fa-lg"></i>
+            </a>
+        </td>
+
+        <td>
+            <a class="btn btn-primaty table-btn" asp-page="./DetailPedido" asp-route-pedidoId="@pedido.Id">
+            <i class="fas fa-adress-book fa-lg" aria-hidden="true"></i>
+            </a>
+        </td>
+        <td>
+            <a class="btn btn-primaty table-btn" asp-page="./DetailPedido" asp-route-pedidoId="@pedido.Id">
+            <i class="far fa-trash-alt"></i>
+            </a>
+        </td>
+
+    </tr>
+}
+
+
+</table>
+
+<a class="btn btn-primary table-btn" asp-page="./AddPedido">Crear Pedido</a>
+
+
+
+ @* public int Id {get;set;}
+        public String Factura {get;set;}
+        public Producto Productos {get;set;}   
+        public String Ubicacion {get;set;}
+        public double Precio {get;set;}
+        public String FormaPago {get;set;} *@

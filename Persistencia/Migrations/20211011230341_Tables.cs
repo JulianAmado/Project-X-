@@ -2,7 +2,7 @@
 
 namespace Persistencia.Migrations
 {
-    public partial class tables : Migration
+    public partial class Tables : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -25,22 +25,6 @@ namespace Persistencia.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Empresas", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Pedidos",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Factura = table.Column<int>(type: "int", nullable: false),
-                    Producto = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Descuento = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Ubicacion = table.Column<string>(type: "nvarchar(max)", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Pedidos", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -83,6 +67,34 @@ namespace Persistencia.Migrations
                 {
                     table.PrimaryKey("PK_Productos", x => x.Id);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Pedidos",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Factura = table.Column<int>(type: "int", nullable: false),
+                    ProductosId = table.Column<int>(type: "int", nullable: true),
+                    Ubicacion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Precio = table.Column<double>(type: "float", nullable: false),
+                    FormaPago = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Pedidos", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Pedidos_Productos_ProductosId",
+                        column: x => x.ProductosId,
+                        principalTable: "Productos",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Pedidos_ProductosId",
+                table: "Pedidos",
+                column: "ProductosId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

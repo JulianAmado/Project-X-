@@ -36,7 +36,7 @@ namespace FrontEnd.Pages
         {
             try
             {
-                repositorioProducto.updateProducto(Producto);
+                repositorioProducto.updateProducto(producto);
                 return RedirectToPage("./Productos");
             }
             catch
