@@ -6,12 +6,7 @@ namespace Persistencia
 {
     public class ApplicationDbContext : DbContext
     {
-<<<<<<< HEAD
         private const String connectionString= @"Data Source= (localdb)\MSSQLLocalDB;Initial Catalog= DatabaseX ; Integrated Security=True";
-=======
-
-        private const String connectionString= @"Data Source= localhost\SQLEXPRESS;Initial Catalog= DatabaseX ; Integrated Security=True";
->>>>>>> 82a9ab3f4fb866ca7aa16a2681b5088a91e8c379
 
 
 
