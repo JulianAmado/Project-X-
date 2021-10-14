@@ -10,3 +10,15 @@ C:\Users\fabianandres\Documents\Programacion\Project X\Dominio\obj\Debug\net5.0\
 C:\Users\fabianandres\Documents\Programacion\Project X\Dominio\obj\Debug\net5.0\Dominio.dll
 C:\Users\fabianandres\Documents\Programacion\Project X\Dominio\obj\Debug\net5.0\ref\Dominio.dll
 C:\Users\fabianandres\Documents\Programacion\Project X\Dominio\obj\Debug\net5.0\Dominio.pdb
+C:\Users\anosc\Desktop\Project-X-\Dominio\bin\Debug\net5.0\Dominio.deps.json
+C:\Users\anosc\Desktop\Project-X-\Dominio\bin\Debug\net5.0\Dominio.dll
+C:\Users\anosc\Desktop\Project-X-\Dominio\bin\Debug\net5.0\ref\Dominio.dll
+C:\Users\anosc\Desktop\Project-X-\Dominio\bin\Debug\net5.0\Dominio.pdb
+C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\Dominio.csproj.AssemblyReference.cache
+C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfoInputs.cache
+C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\Dominio.AssemblyInfo.cs
+C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\Dominio.dll
+C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\ref\Dominio.dll
+C:\Users\anosc\Desktop\Project-X-\Dominio\obj\Debug\net5.0\Dominio.pdb
