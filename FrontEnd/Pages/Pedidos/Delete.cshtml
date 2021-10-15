@@ -1,0 +1,50 @@
+﻿@page
+@model FrontEnd.Pages.DeleteModel
+@{
+}
+
+<h1>Eliminar Pedido</h1>
+<br>
+<p>¿Está seguro que desea eliminar su pedido?</p>
+<br>
+<div>
+    <hr>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model=>Model.pedido.Factura)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model=> Model.pedido.Factura)
+        </dd>
+         <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model=>Model.pedido.Productos)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model=> Model.pedido.Productos)
+        </dd>
+         <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model=>Model.pedido.Ubicacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model=> Model.pedido.Ubicacion)
+        </dd>
+         <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model=>Model.pedido.FormaPago)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model=> Model.pedido.FormaPago)
+        </dd>
+         <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model=>Model.pedido.Ubicacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model=> Model.pedido.Ubicacion)
+        </dd>
+
+    </dl>
+</div>
+<form method="post">
+    <input type="hidden" asp-for="pedido.Id">
+    <input type="submit" value="Si" class="btn btn-danger">
+    <a asp-page="./ListPedido" class="btn btn-primary"></a>
+</form>

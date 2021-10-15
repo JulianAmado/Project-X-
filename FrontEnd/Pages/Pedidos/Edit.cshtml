@@ -1,0 +1,29 @@
+﻿@page
+@model FrontEnd.Pages.EditModel
+@{
+}
+<h1>Editar Pedido</h1>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <input hidden asp-for="Pedidos.Id">
+            <div class="form-group">
+                <label asp-for="Pedidos.Productos" class="form-control">Productos</label>
+                <input asp-for="Pedidos.Productos" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pedidos.Ubicacion" class="form-control">Ubicacion</label>
+                <input asp-for="Pedidos.Ubicacion" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pedidos.FormaPago" class="form-control">Forma de Pago</label>
+                <input asp-for="Pedidos.FormaPago" class="form-control" required>
+            </div>
+            <br>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">Guardar</button>
+                <a asp-page="./ListPedido" class="btn btn-primary">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>

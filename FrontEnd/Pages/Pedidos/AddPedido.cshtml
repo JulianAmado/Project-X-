@@ -1,0 +1,46 @@
+﻿@page
+@model FrontEnd.Pages.AddPedidoModel
+@{
+}
+
+<h1>Crear Pedido</h1>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <input hidden asp-for="PedidoNuevo.Id">
+            <div class="form-group">
+                <label asp-for ="PedidoNuevo.Productos" class="contro-label"> Añadir Productos</label>
+                <input asp-for="PedidoNuevo.Productos" class="form-control" value="" required>
+                <table class="table">
+                     <thead class="thead-light">
+                             <tr>
+                                <th scope="col">Id</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Cantidad</th>
+                                <th scope="col">Descripción</th>
+                                <th scope="col">Descuento</th>
+                                <th scope="col">PrecioFinal</th>
+                                <th scope="col">Detalles</th>
+                                <th scope="col">Editar</th>
+                                <th scope="col">Borrar</th>         
+                            </tr>
+                        </thead>
+                        @foreach (var producto in Model.Productos)
+                     {
+                        <tr>
+                            <td>@producto.Nombre</td>
+                            <td>@producto.Cantidad</td>
+                            <td>@producto.Descripcion</td>
+                            <td>@producto.Descuento</td>
+                            <td>@producto.PrecioFinal</td>
+                            <td>
+
+                        </tr>
+    }
+                </table>
+
+                
+            </div>
+        </form>
+    </div>
+</div>

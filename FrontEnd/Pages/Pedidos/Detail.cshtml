@@ -1,0 +1,47 @@
+﻿@page
+@model FrontEnd.Pages.DetailModel
+@{
+}
+<h1>Detalle del Pedido</h1>
+<div>
+    <hr>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model=> Model.Pedidos.Id)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model=> Model.Pedidos.Id)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model=> Model.Pedidos.Factura)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model=> Model.Pedidos.Factura)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model=> Model.Pedidos.Productos)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model=> Model.Pedidos.Productos)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model=> Model.Pedidos.Ubicacion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model=> Model.Pedidos.Ubicacion)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model=> Model.Pedidos.FormaPago)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model=> Model.Pedidos.FormaPago)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(Model=> Model.Pedidos.Precio)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(Model=> Model.Pedidos.Precio)
+        </dd>
+    </dl>
+</div>
+<a asp-page="./ListPedido" class="btn btn-primary">Regresar</a>

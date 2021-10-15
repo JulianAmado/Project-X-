@@ -24,13 +24,10 @@ namespace FrontEnd.Pages
             this.repositorioPedido= repositorioPedido;
         }
 
-        
-
-
-
         public void OnGet(String filtroBusqueda)
         {
             filtroBusquedaPedido= filtroBusqueda;
+            Pedidos= repositorioPedido.GetPedidoPorFiltro(filtroBusqueda);
             
 
         }

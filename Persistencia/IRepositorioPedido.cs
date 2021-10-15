@@ -5,8 +5,8 @@ namespace Persistencia
 {
     public interface IRepositorioPedido
     {
-        Pedido addPedido(Pedido cliente);
-        Pedido updatePedido(Pedido cliente);
+        Pedido addPedido(Pedido pedido);
+        Pedido updatePedido(Pedido pedido);
         IEnumerable<Pedido> getAllPedido();
         void deletePedido(int idPedido);
         Pedido GetPedido(int idPedido);
