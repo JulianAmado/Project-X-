@@ -25,6 +25,7 @@ namespace FrontEnd
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllersWithViews();
             services.AddSingleton<IRepositorioPersona>(new RepositorioPersona(new Persistencia.ApplicationDbContext()));
             services.AddSingleton<IRepositorioEmpleado>(new RepositorioEmpleado(new Persistencia.ApplicationDbContext()));
             services.AddSingleton<IRepositorioCliente>(new RepositorioCliente(new Persistencia.ApplicationDbContext()));
@@ -58,6 +59,9 @@ namespace FrontEnd
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller = Conference}/{action = Index}/{id?}");
                 endpoints.MapRazorPages();
             });
         }
