@@ -2,3 +2,4 @@
 Persistencia/obj
 Persistencia/ApplicationDbContext.cs
 Persistencia/Migrations
+FrontEnd/bin
