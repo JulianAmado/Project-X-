@@ -103,3 +103,5 @@ C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\obj\Debug\net5.0
 C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\obj\Debug\net5.0\FrontEnd.pdb
 C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\obj\Debug\net5.0\FrontEnd.genruntimeconfig.cache
 C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\obj\Debug\net5.0\Razor\Pages\Pedidos\Delete.cshtml.g.cs
+C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\obj\Debug\net5.0\Razor\Pages\Pedidos\Detail.cshtml.g.cs
+C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\obj\Debug\net5.0\Razor\Pages\Pedidos\Edit.cshtml.g.cs
