@@ -9,6 +9,6 @@ namespace Persistencia
        IEnumerable<Producto> getAllProducto();
        void deleteProducto(int idproducto);
        Producto GetProducto(int idproducto);
-       IEnumerable<Producto> GetProductoPorFiltro(string filtro);   
+       IEnumerable<Producto> GetProductoPorFiltro(string filtro);
     }
 }

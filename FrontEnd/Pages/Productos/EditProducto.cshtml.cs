@@ -11,7 +11,6 @@ namespace FrontEnd.Pages
 {
     public class EditProductoModel : PageModel
     {
-     
         private readonly IRepositorioProducto repositorioProducto;
         public Producto Producto { get; set; }
 

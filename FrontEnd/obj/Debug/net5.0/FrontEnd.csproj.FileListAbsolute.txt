@@ -303,3 +303,7 @@ C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Areas\Identity
 C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
 >>>>>>> ba80ea270c1ad80fa36843478e52396ffba8afaf
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Pedidos\AddPedido.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Pedidos\Delete.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Pedidos\Detail.cshtml.g.cs
+C:\Users\anosc\Desktop\Project-X-\FrontEnd\obj\Debug\net5.0\Razor\Pages\Pedidos\Edit.cshtml.g.cs

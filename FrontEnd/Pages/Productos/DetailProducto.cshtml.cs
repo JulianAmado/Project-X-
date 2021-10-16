@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Persistencia; 
+using Persistencia;
 using Dominio;
 
 namespace FrontEnd.Pages
@@ -29,7 +29,6 @@ namespace FrontEnd.Pages
             {
                 return Page();
             }
-        
         }
     }
 }

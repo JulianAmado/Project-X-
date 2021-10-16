@@ -6,10 +6,7 @@ namespace Persistencia
 {
     public class ApplicationDbContext : DbContext
     {
-        private const String connectionString= @"Data Source= (localdb)\MSSQLLocalDB;Initial Catalog= DatabaseX ; Integrated Security=True";
-
-
-
+        private const String connectionString= @"Data Source= localhost\SQLEXPRESS;Initial Catalog= DatabaseX ; Integrated Security=True";
 
         public DbSet <Persona> Personas {get;set;}
         public DbSet <Restaurante> Restaurantes {get;set;}
@@ -19,15 +16,10 @@ namespace Persistencia
         public DbSet <Cliente> Clientes {get;set;}
         public DbSet <Domiciliario> Domiciliarios {get; set;}
         public DbSet <Producto> Productos {get; set;}
-             
-
-
-        
-         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         if(!optionsBuilder.IsConfigured){
         optionsBuilder.UseSqlServer(connectionString);
-
         }
     }
     }

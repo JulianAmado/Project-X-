@@ -7,8 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = FrontEnd
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\fabianandres\Documents\Programacion\Project X\FrontEnd\
-=======
 build_property.ProjectDir = C:\Users\anosc\Desktop\Project-X-\FrontEnd\
->>>>>>> ba80ea270c1ad80fa36843478e52396ffba8afaf

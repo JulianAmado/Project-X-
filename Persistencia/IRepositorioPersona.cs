@@ -7,10 +7,8 @@ namespace Persistencia
     {
          Persona addPersona (Persona persona);
          Persona updatePersona (Persona persona);
-         
          IEnumerable <Persona> getAllPersona();
          void deletePersona (int idPersona);
          Persona GetPersona (int idPersona);
-
     }
 }

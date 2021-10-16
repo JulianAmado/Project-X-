@@ -13,22 +13,20 @@ namespace FrontEnd.Pages
     {
 
         private readonly IRepositorioPedido repositorioPedido;
-        private readonly IRepositorioProducto RepositorioProducto;
+        private readonly IRepositorioProducto repositorioProducto;
         [BindProperty(SupportsGet = true)]
         public IEnumerable<Producto> Productos { get; set; }
-        
         public Pedido PedidoNuevo {get;set;}
 
-        public AddPedidoModel(IRepositorioPedido repositorioPedido, IRepositorioProducto RepositorioProducto){
+        public AddPedidoModel(IRepositorioPedido repositorioPedido, IRepositorioProducto repositorioProducto){
             this.repositorioPedido=repositorioPedido;
-            this.RepositorioProducto=RepositorioProducto;
-
+            this.repositorioProducto=repositorioProducto;
         }
-
 
         public void OnGet()
         {
-            PedidoNuevo= new Pedido();
+            PedidoNuevo = new Pedido();
+            Productos = repositorioProducto.getAllProducto(); // Cambio realizado
         }
         public IActionResult OnPost (Pedido PedidoNuevo){
             try

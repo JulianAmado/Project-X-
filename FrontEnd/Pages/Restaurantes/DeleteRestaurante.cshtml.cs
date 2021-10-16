@@ -19,7 +19,6 @@ namespace FrontEnd.Pages
             this.repositorioRestaurante = repositorioRestaurante;
         }
 
-
         public void OnGet(int restauranteId)
         {
             Restaurante = repositorioRestaurante.GetRestaurante(restauranteId);
